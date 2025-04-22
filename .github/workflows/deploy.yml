@@ -22,7 +22,7 @@ jobs:
           node-version: 20
           cache: npm
 
-      - name: build site 
+      - name: Build Site
         run: |
           pwd
           npm install 

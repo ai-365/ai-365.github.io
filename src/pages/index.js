@@ -37,6 +37,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <a href="https://www.baidu.com">https://www.baidu.com</a>
       </main>
     </Layout>
   );
