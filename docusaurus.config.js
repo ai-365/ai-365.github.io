@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '我的个人网站',
+  title: '我的个人网站22222222222',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
