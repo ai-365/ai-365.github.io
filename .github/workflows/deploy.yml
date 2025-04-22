@@ -21,7 +21,9 @@ jobs:
           # cache: npm
 
       - name: set working directory  
-        run: cd docusaurus
+        run: |
+          cd docusaurus
+          pwd
       
       - name: check working directory
         run: pwd
