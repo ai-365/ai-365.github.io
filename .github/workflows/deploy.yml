@@ -24,20 +24,13 @@ jobs:
         run: |
           cd docusaurus
           pwd
-      
-      - name: check working directory
-        run: pwd
-
-      - name: Install dependencies
-        run: npm install 
-
-      - name: Build website
-        run: npm run build
-
+          npm install 
+          npm run build
+    
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: build
+          path: docusaurus/build
 
   deploy:
     name: Deploy to GitHub Pages
