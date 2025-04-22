@@ -11,6 +11,7 @@ jobs:
   build:
     name: Build Docusaurus
     runs-on: ubuntu-latest
+    working-directory: ./docusaurus
     steps:
       - uses: actions/checkout@v4
         with:
@@ -20,8 +21,8 @@ jobs:
           node-version: 18
           cache: npm
 
-      - name: set working directory
-        run: cd docusaurus
+      # - name: set working directory
+      #   run: cd docusaurus
 
       - name: Install dependencies
         run: npm install 
