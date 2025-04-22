@@ -11,6 +11,10 @@ jobs:
   build:
     name: Build Docusaurus
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+        working-directory: docusaurus
     steps:
       - uses: actions/checkout@v4
         with:
@@ -22,7 +26,7 @@ jobs:
 
       - name: set working directory  
         run: |
-          cd docusaurus
+          # cd docusaurus
           pwd
           npm install 
           npm run build
