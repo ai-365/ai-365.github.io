@@ -22,6 +22,9 @@ jobs:
 
       - name: set working directory  
         run: cd docusaurus
+      
+      - name: check working directory
+        run: pwd
 
       - name: Install dependencies
         run: npm install 
