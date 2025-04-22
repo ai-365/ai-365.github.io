@@ -1,47 +1,60 @@
----
-sidebar_position: 1
----
+##  Set集合类型
 
-# Tutorial Intro 指南
+Set数据类型类是ES6新增的集合引用类型，表示元素唯一的集合。结构上类似于数组，与数组的区别是Set的元素不能重复。
 
-Let's discover **Docusaurus in less than 5 minutes**.
+可以使用构造函数新建一个空的Set实例：
 
-## Getting Started
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
+```js
+const set = new Set()
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+该函数也接收一个可迭代对象：
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
+```js
+const set = new Set([1,2,3])
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+打印一个set实例会输出如下结果：
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+```js
+const set = new Set([1,2,3]
+console.log(set)  //=> Set(3) { 1, 2, 3 }
+```
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+set实例的size属性返回set的元素个数：
+
+```js
+const set = new Set([1,2,3])
+console.log(set.size)
+```
+
+使用add()方法添加元素，可使用链式操作：
+
+```js
+const set = new Set().add(1).add(2).add(3)
+```
+
+要查询是否包含某个元素，使用has()方法，该方法返回一个布尔值：
+
+```js
+const set = new Set([1,2,3])
+console.log(set.has(2))
+console.log(set.has(6))
+```
+
+要删除某个元素，使用delete()方法，可以选择接收返回值，返回值是一个布尔值，表示是否已删除成功:
+
+```js
+const set = new Set([1,2,3])
+set.delete(1)
+console.log(set.delete(2))  //=>true
+console.log(set.delete(2))  //=> false
+```
+
+要清空set的所有严元素，使用clear()方法：
+
+```js
+const set = new Set([1,2,3])
+set.clear()
+console.log(set.size)  //=>0
+```
