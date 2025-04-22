@@ -14,7 +14,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: docusaurus
+        working-directory: .
     steps:
       - uses: actions/checkout@v4
         with:
@@ -26,7 +26,6 @@ jobs:
 
       - name: build site 
         run: |
-          # cd docusaurus
           pwd
           npm install 
           npm run build
@@ -34,7 +33,7 @@ jobs:
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docusaurus/build
+          path: build
 
   deploy:
     name: Deploy to GitHub Pages
