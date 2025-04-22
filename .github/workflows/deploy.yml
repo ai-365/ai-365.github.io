@@ -24,7 +24,7 @@ jobs:
           node-version: 18
           cache: npm
 
-      - name: set working directory  
+      - name: build site 
         run: |
           # cd docusaurus
           pwd
