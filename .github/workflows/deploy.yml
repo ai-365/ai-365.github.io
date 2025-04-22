@@ -2,8 +2,6 @@ name: Deploy to GitHub Pages with Docusaurus
 
 on:
   workflow_dispatch:
-    branches:
-      - master
     # Review gh actions docs if you want to further define triggers, paths, etc
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
