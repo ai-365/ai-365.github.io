@@ -49,6 +49,9 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
+
+        blog:false,
+        /*
         blog: {
           showReadingTime: true,
           feedOptions: {
@@ -64,6 +67,8 @@ const config = {
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
         },
+        */
+
         theme: {
           customCss: './src/css/custom.css',
         },
