@@ -1,1 +1,1 @@
-# ai-365-ai-365.github.io
+# ai-365.github.io
