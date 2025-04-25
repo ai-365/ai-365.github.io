@@ -17,6 +17,7 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
+          {/* 其实这里指向的是/docs/指南.md */}
           <Link
             className="button button--secondary button--lg"
             to="/指南">
