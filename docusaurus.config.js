@@ -18,6 +18,9 @@ const config = {
   url: 'https://ai-365.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
+  // 这里的设置非常重要！
+  // 如果仓库名是 [用户名].github.io 则设置为 '/'
+  // 否则应该为仓库名
   baseUrl: '/',
 
   // GitHub pages deployment config.
