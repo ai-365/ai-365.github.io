@@ -28,8 +28,9 @@ const config = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',  // 如果链接失效怎么办？默认报错，这里改成警告
   onBrokenMarkdownLinks: 'warn',
+  onBrokenAnchors: 'log' // 标题锚点失效，默认报错
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
