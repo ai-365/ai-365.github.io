@@ -41,6 +41,8 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        docs: false,
+        /*
         docs: {
           routeBasePath: '/',  // 设置docs的根目录为项目根目录
           sidebarPath: './sidebars.js',
@@ -49,6 +51,7 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
+        */
         blog: false,  // 取消博客功能
         theme: {
           customCss: './src/css/custom.css',
