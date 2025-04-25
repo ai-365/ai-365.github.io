@@ -1,0 +1,107 @@
+{
+    "explorer.confirmDelete": false,
+    "editor.fontSize": 18,
+    "markdown.preview.fontSize": 22,
+    "markdown.preview.lineHeight": 2,
+    "explorer.confirmDragAndDrop": false,
+    
+    "[markdown]": {
+        "diffEditor.wordWrap": "on",
+        "editor.fontSize": 20,
+        "editor.fontFamily": "'小米兰亭',Consolas, 'Courier New', monospace",
+        "editor.lineNumbers": "off",
+        "editor.lineHeight": 2,
+        "editor.letterSpacing":0.5,
+        
+    },
+
+    "[plaintext]": {
+        "diffEditor.wordWrap": "on",
+        "editor.fontSize": 20,
+        "editor.fontFamily": "'小米兰亭',Consolas, 'Courier New', monospace",
+        "editor.lineNumbers": "off",
+        "editor.lineHeight": 2,
+        "editor.letterSpacing":1,
+        
+    },
+
+    "workbench.editorAssociations": {
+        "*.png": "imagePreview.previewEditor",
+        "*.jpg": "imagePreview.previewEditor",
+        "*.emf": "default",
+        "*.mp4": "vscode.videoPreview",
+        // markdown文件是否默认预览
+         "*.md": "vscode.markdown.preview.editor",
+    },
+    
+    "markdown.preferredMdPathExtensionStyle": "includeExtension",
+    "markdown.updateLinksOnFileMove.enabled": "always",
+    "git.openRepositoryInParentFolders": "never",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.cursorStyle": "line",
+    "markdown.preview.fontFamily": "'小米兰亭',-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
+    "extensions.ignoreRecommendations": true,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "workbench.colorTheme": "Default Light+",
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.layoutControl.enabled": false,
+    "files.defaultLanguage": "markdown",
+    "window.newWindowDimensions": "inherit",
+    "editor.roundedSelection": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "workbench.tree.indent": 30,
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.exclude": {
+        "**/.git": false,
+        "desktop.ini": true
+    },
+    "editor.codeActionsOnSave": {
+        
+    },
+    "editor.stickyScroll.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "extensions.autoUpdate": false,
+    "terminal.integrated.fontSize": 16,
+    "git.confirmSync": false,
+    "editor.mouseWheelZoom": true,
+    "markdown.extension.print.imgToBase64": true,
+    "markdown.marp.enableHtml": true,
+    "picgo.picBed.current": "imgur",
+    "explorer.confirmPasteNative": false,
+    "window.commandCenter": false,
+    "mediaPreview.video.autoPlay": true,
+    "files.autoSave": "afterDelay",
+    "explorer.compactFolders": false,
+    "editor.wordBasedSuggestions": "off",
+    "editor.fontFamily": "Consolas,'小米兰亭', 'Courier New', monospace",
+    "workbench.editor.autoLockGroups": {
+        "mainThreadWebview-markdown.preview": true
+    },
+    "liveshare.launcherClient": "web",
+    "workbench.startupEditor": "none",
+    "remoteHub.commitDirectlyWarning": "off",
+    "markdown.extension.toc.levels": "1..3",
+    "workbench.editor.navigationScope": "editorGroup",
+    "markdown.editor.drop.enabled": "always",
+    "github.codespaces.defaultExtensions": [
+
+        "GitHub.codespaces",
+        "GitHub.vscode-pull-request-github"
+    ],
+    "markdown.editor.filePaste.enabled": "always",
+    "files.simpleDialog.enable": true,
+    "editor.minimap.enabled": false,
+    "markdown.preview.markEditorSelection": false,
+    "window.menuBarVisibility": "compact",
+    "markdown.preview.doubleClickToSwitchToEditor": false,
+    "codingcopilot.enableAutoCompletions": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "cloudstudio.autosleep": "no",
+    "git.enableSmartCommit": true,
+    "git.countBadge": "off",
+    "git.decorations.enabled": false,
+    "codingcopilot.enableCodelens": false,
+  
+}
