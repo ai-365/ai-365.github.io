@@ -17,7 +17,7 @@ const set = new Set([1,2,3])
 打印一个set实例会输出如下结果：
 
 ```js
-const set = new Set([1,2,3]
+const set = new Set([1,2,3])
 console.log(set)  //=> Set(3) { 1, 2, 3 }
 ```
 
