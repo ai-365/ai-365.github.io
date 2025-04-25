@@ -44,7 +44,7 @@ const config = {
         // docs: false,
         /**/
         docs: {
-          // routeBasePath: '/',  // 设置docs的根目录为项目根目录
+          routeBasePath: '/',  // 设置docs的根目录为项目根目录
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
