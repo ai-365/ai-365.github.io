@@ -19,7 +19,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/intro">
             Docusaurus Tutorial - 5min ⏱️
           </Link>
         </div>
@@ -37,7 +37,6 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
-        <a href="https://www.baidu.com">https://www.baidu.com</a>
       </main>
     </Layout>
   );
