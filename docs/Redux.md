@@ -1,6 +1,6 @@
 ###   任意组件间通过Redux通信
 
-首先，定义store仓库：    
+首先，定义store仓库：
 
 ```js
 // 引入createStore
