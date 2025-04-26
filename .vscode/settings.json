@@ -8,7 +8,7 @@
     "[markdown]": {
         "diffEditor.wordWrap": "on",
         "editor.fontSize": 19,
-        "editor.fontFamily": "'小米兰亭',Consolas, 'Courier New', monospace",
+        "editor.fontFamily": " Consolas, '小米兰亭', 'Courier New', monospace",
         "editor.lineNumbers": "off",
         "editor.lineHeight": 2,
         "editor.letterSpacing":0.5,
