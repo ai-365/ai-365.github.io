@@ -1,0 +1,108 @@
+{
+    "explorer.confirmDelete": false,
+    "editor.fontSize": 18,
+    "editor.minimap.enabled": false,
+    "markdown.preview.fontSize": 19,
+    "markdown.preview.lineHeight": 2,
+    "explorer.confirmDragAndDrop": false,
+    "[markdown]": {
+        "diffEditor.wordWrap": "on",
+        "editor.fontSize": 19,
+        "editor.fontFamily": "'小米兰亭',Consolas, 'Courier New', monospace",
+        "editor.lineNumbers": "off",
+        "editor.lineHeight": 2,
+        "editor.letterSpacing":0.5,
+        
+    },
+
+    "[plaintext]": {
+        "diffEditor.wordWrap": "on",
+        "editor.fontSize": 20,
+        "editor.fontFamily": "'小米兰亭',Consolas, 'Courier New', monospace",
+        "editor.lineNumbers": "off",
+        "editor.lineHeight": 2,
+        "editor.letterSpacing":1,
+        
+    },
+
+    "workbench.editorAssociations": {
+        "*.png": "imagePreview.previewEditor",
+        "*.jpg": "imagePreview.previewEditor",
+        "*.emf": "default",
+        "*.mp4": "vscode.videoPreview",
+        // "*.md": "vscode.markdown.preview.editor"
+    },
+    
+    "markdown.preferredMdPathExtensionStyle": "removeExtension",
+    "markdown.updateLinksOnFileMove.enabled": "always",
+    "git.openRepositoryInParentFolders": "never",
+    "settingsSync.ignoredExtensions": [
+        "jeffersonqin.tencent-cloud-cos-upload-image",
+        "ritwickdey.liveserver",
+        "cweijan.vscode-office"
+    ],
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.cursorStyle": "line",
+    "markdown.preview.fontFamily": "'小米兰亭',-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
+    "extensions.ignoreRecommendations": true,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "workbench.colorTheme": "Default Light+",
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.layoutControl.enabled": false,
+    "files.defaultLanguage": "markdown",
+    "editor.roundedSelection": false,
+    "workbench.tree.indent": 30,
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.exclude": {
+        "**/.git": false,
+        "desktop.ini": true
+    },
+    "editor.codeActionsOnSave": {
+        
+    },
+    "editor.stickyScroll.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "extensions.autoUpdate": false,
+    "git.confirmSync": false,
+    "markdown-pdf.displayHeaderFooter": false,
+    "markdown-pdf.headerTemplate": "",
+    "excalidraw.theme": "auto",
+    "editor.mouseWheelZoom": true,
+    "markdown.extension.print.imgToBase64": true,
+    "markdown.marp.enableHtml": true,
+    "picgo.picBed.current": "tcyun",
+    "explorer.confirmPasteNative": false,
+    "window.commandCenter": false,
+    "markdown.preview.markEditorSelection": false,
+    "markdown.preview.openMarkdownLinks": "inEditor",
+    "mediaPreview.video.autoPlay": true,
+    "editor.folding": false,
+    "markdown.preview.doubleClickToSwitchToEditor": false,
+    "files.autoSave": "afterDelay",
+    "explorer.compactFolders": false,
+    "editor.wordBasedSuggestions": "off",
+    "editor.fontFamily": "Consolas,'小米兰亭', 'Courier New', monospace",
+    "workbench.editor.autoLockGroups": {
+        "mainThreadWebview-markdown.preview": true
+    },
+    "liveshare.launcherClient": "web",
+    "workbench.startupEditor": "none",
+    "remoteHub.commitDirectlyWarning": "off",
+    "git.countBadge": "off",
+    "git.decorations.enabled": false,
+
+
+    
+    
+    // wxml、wxss高亮
+    "files.associations": {
+        "*.wxml": "html",
+        "*.wxss": "css" ,
+    },
+    "terminal.integrated.mouseWheelZoom": true,
+    "terminal.integrated.fontSize": 19
+    
+    
+}
