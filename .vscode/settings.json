@@ -45,7 +45,7 @@
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "terminal.integrated.defaultProfile.windows": "PowerShell",
     "terminal.integrated.cursorStyle": "line",
-    "markdown.preview.fontFamily": "'小米兰亭',-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
+    "markdown.preview.fontFamily": " Consolas,'小米兰亭',-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
     "extensions.ignoreRecommendations": true,
     "editor.unicodeHighlight.nonBasicASCII": false,
     "workbench.colorTheme": "Default Light+",
