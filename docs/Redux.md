@@ -2,7 +2,7 @@
 
 首先，定义store仓库：
 
-```
+```js
 // 引入createStore
 import {createStore} from 'redux'
 
@@ -36,11 +36,10 @@ export default store
 
 然后，定义事件触发端：
 
+```js
 import Store from "./定义Store仓库";
 
-
 export default ()=>{
-
     
     function handler(event){
         // 只要输入框内容改变就会触发，输入内容作为action的payload
@@ -51,9 +50,10 @@ export default ()=>{
         请输入:<input autoFocus id="input" onInput={handler}/><br/>
     </>
 }
+```
 
 然后，定义事件接收端：
-
+```js
 import { useState } from "react";
 import Store from "./定义Store仓库";
 
@@ -75,3 +75,4 @@ export default ()=>{
         <div style={style}>{info}</div>
     </>
 }
+```
