@@ -10,7 +10,7 @@
 
 一般情况下，对象的属性就是数据属性，例如：
 
-```
+```js
 const obj = {a:1,b:2}
 ```
 
@@ -29,7 +29,7 @@ const obj = {a:1,b:2}
 
 Object.defineProperty()方法来定义：
 
-```
+```js
 const obj = {}
 
 Object.defineProperty(obj,'a',{
@@ -55,7 +55,7 @@ console.log(obj.a)  //  1 ： 不会报错，但是静默失败
 
 这里的难点是get和set，如果对属性只定义了get函数，那么该属性就是只读的，必须同时定义get和set函数才说明该属性是可写的，例如：
 
-```
+```js
 const obj = {a:1}
 
 Object.defineProperty(obj,'b',{
@@ -70,7 +70,7 @@ console.log(obj.a)  //   2
 
 这里a是数据属性，b是a的访问器属性，可读可写。再来看一个只读访问器的例子：
 
-```
+```js
 const obj = {a:1}
 
 Object.defineProperty(obj,'b',{

@@ -37,7 +37,7 @@ console.log(json)   //  {"a":1,"c":3}
 
 要将JSON序列化为对象，则使用JSON.parse()方法。例如：
 
-```
+```js
 const json = '{"a":1,"b":2,"c":3}'
 
 const obj = JSON.parse(json)
@@ -48,7 +48,7 @@ console.log(obj)
 
 ```json
 {
-         "a":1,
+    "a":1,
     "b":2,
     "c":3
 }

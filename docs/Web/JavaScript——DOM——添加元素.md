@@ -80,7 +80,7 @@ before()和after()分别在之前和之后添加同辈元素。示例如下：
 
 使用cloneNode()方法可以复制元素，该方法返回新的元素对象，使用true选项复制全部内容。
 
-```
+```js
 <body>
         <p id='old'>old content</p>
 </body> 

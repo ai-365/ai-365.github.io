@@ -73,7 +73,7 @@ console.log(p.getB())
 ###   属性默认值
 可以在定义类的时候，给属性一个默认值，例如：
 
-```
+```js
 class Example{
         a = 0;
         b = 0;

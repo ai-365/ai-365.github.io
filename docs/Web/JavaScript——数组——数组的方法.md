@@ -4,21 +4,21 @@
 
 ES2019新增了`at()`方法，该方法可以从倒数第一位开始访问数组元素，以往我们要找到数组的最后一个元素，使用的是：
 
-```
+```js
 const arr = [1,2,3]
 console.log(arr[arr.length-1])  // 3
 ```
 
 现在，有了 ` at() ` 方法，便可以非常方便地返回最后一个元素值:
 
-```
+```js
 const arr = [1,2,3]
 console.log(arr.at(-1))  // 3
 ```
 
 通过索引返回元素，` at() ` 方法比中括号形式更加通用，因为 ` at()` 可以接收一个正整数或负整数，正整数就是正序索引，等同于中括号形式 ` [] ` ,而负整数就是逆序索引，例如：
 
-```
+```js
 const arr = [1,2,3]
 console.log(arr.at(0))  // 1 , 等价于arr[0]
 console.log(arr.at(-1))  // 3 , 返回倒数第一个元素值
@@ -29,7 +29,7 @@ console.log(arr.at(-2)) // 2 , 返回倒数第二个元素值
 
 使用concat()方法可以合并数组，返回有原数组和实参组成的新数组：
 
-```
+```js
 const arr1 = [1, 2, 3]
 const arr2 = [4, 5, 6]
 const arr3 =arr1.concat(arr2)
@@ -38,7 +38,7 @@ console.log(arr3)  // [1,2,3,4,5,6]
 
 当然，也可以使用扩展运算符更便捷的操作：
 
-```
+```js
 cosnt arr1 = [1, 2, 3]
 const arr2 = [4, 5, 6]
 const arr3=[...arr1 , ...arr2 ]         
@@ -55,7 +55,7 @@ console.log(arr3)//[1,2,3,4,5,6]
 
 fill()方法会修改源数组，来看下面的例子：
 
-```
+```js
 const arr1 = [1,2,3,4,5,6]
 const arr2=[...arr1]
 const arr3=[...arr1]
@@ -79,7 +79,7 @@ arr3.fill(20,1,-2)
 
 仅仅是查看是否包含某个元素，可使用Array.prototype.includes()方法，该方法返回一个布尔值，例如：
 
-```
+```js
 const arr = [1,2,3]
 console.log(arr.includes(1)) // true
 console.log(arr.includes(5)) // false
@@ -89,7 +89,7 @@ console.log(arr.includes(5)) // false
 
 如果不仅要看是否包含某个元素，还要找出第一次出现的位置，则应该使用Array.prototype.indexOf()方法，如果能找到，则返回第一次出现的索引位置，如果没有，则返回-1。如果要返回最后一次出现的索引位置，则使用Array.prototype.lastIndexOf()，例如：
 
-```
+```js
 cosnt arr = [1, 2, 3, 4, 2, 5]
 
 const result1 = arr.indexOf(2)  // 第一次出现2的索引位置
@@ -107,7 +107,7 @@ console.log(result3)  // 4
 
 有些场景下，我们需要将具有嵌套结构的数组打平，ES2019新增了flat()方法用于数组的打平操作，例如：
 
-```
+```js
 const arr1= [ 1, [2,3],4 ]
 const arr2=arr.flat()
 console.log(arr2)   //=>[1,2,3,4]
@@ -115,7 +115,7 @@ console.log(arr2)   //=>[1,2,3,4]
 
 该方法还可以接收一个整数，表示打平的深度，默认情况下，打平一级嵌套，例如：
 
-```
+```js
 const arr=[[[1]]]   // 三级嵌套
 const arr1=arr.flat()  
 console.log(arr1)    //=> [[1]]
@@ -126,7 +126,7 @@ console.log(arr2)  //=>[1]
   
 注意，当打平深度高于嵌套层级时，永远只会返回一维数组：
 
-```
+```js
 const arr=[[[1]]]
 const arr3=arr.flat(6)
 console.log(arr)   //=>[1]
@@ -138,7 +138,7 @@ console.log(arr)   //=>[1]
 
 可以使用join()将数组元素用指定的符号拼接起来，再转换为字符串，例如：
 
-```
+```js
 const arr = [1,2 ,3, 4 ]
 const str = arr.join('&')
 console.log(str)  // '1&2&3&4'
@@ -146,7 +146,7 @@ console.log(str)  // '1&2&3&4'
 
 如果没有给定符号，则默认使用英文逗号拼接(,)，例如：
 
-```
+```js
 const arr = [1,2 ,3, 4 ]
 const str = arr.join()  // 等价于 arr.join('') 和 arr.join(',')
 console.log(str)
@@ -154,7 +154,7 @@ console.log(str)
 
 注意，在开始拼接之前，每个元素会先隐式调用toString()方法转成字符串，然后用给定的符号拼接。例如：
 
-```
+```js
 const arr = [1,2,{a:1},3]
 const str = arr.join()
 console.log(str) // '1,2,[object Object],3'
@@ -173,7 +173,7 @@ console.log(str) // '1,2,[object Object],3'
 
 上述“可选择”的意思是可以接收返回值，也可以不接收。例如：
 
-```
+```js
 const arr1 = [1,2,3]
 arr1.push(4)  // 不接收返回值，此时arr1=[1,2,3,4]
 
@@ -182,7 +182,7 @@ const arr2 = [4,5,6]
 
 对数组的首尾进行增减元素的示例如下：
 
-```
+```js
 const arr =[2,3]  
 arr.push(4)  // 在尾部压入一个新元素，此时arr = [2,3,4]
 arr.push(5,6,7)  // 在尾部一次性压入3个新元素，此时arr=[2,3,4,5,6,7]
@@ -201,7 +201,7 @@ console.log(arr) // [-2,-1,0,1,2,3,4,5,6]
 
 例如：
 
-```
+```js
 const arr1 = [1,2,3,4,5,6]
 const arr2 = arr1.slice(1,3)
 console.log(arr2)  // [2,3]
@@ -221,7 +221,7 @@ splice()方法可以在任意位置对数组插入、删除元素。一个完整
 
 需要注意的是，splice()方法直接修改源数组，而不是返回新数组，来看下面的例子：
 
-```
+```js
 const arr=[1,2,3,4,5,6]
 arr.splice(1,3,20,30,40)
 console.log(arr) // [ 1, 20, 30, 40, 5, 6 ]
@@ -261,7 +261,7 @@ map()、filter()、every()、some()和forEach()这五个函数都接收一个函
 
 来看几个例子：
 
-```
+```js
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9 ]
 
 // 对每个元素乘以2，存储到新数组中，arr2=[2,4,6,8,10,12,14,16,18]

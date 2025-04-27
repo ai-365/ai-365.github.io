@@ -6,7 +6,7 @@
 
 有了arguments对象，即便是不写形参，也可以定义函数，例如：
 
-```
+```js
 function sum(){
         const result=Array.from(arguments).reduce((prev,cur)=>prev+cur)
         return result

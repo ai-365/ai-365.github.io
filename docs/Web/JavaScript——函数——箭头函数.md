@@ -42,7 +42,7 @@ console.log(f(2))
 
 下面的两种写法是错的：
 
-```
+```js
 const  f= x => {x+1}
 const  f= x = return x+1 
 ```
@@ -56,7 +56,7 @@ console.log(f())
 
 下面的写法是错的：
 
-```
+```js
 const f = () => {a:1,b:2}
 ```
 

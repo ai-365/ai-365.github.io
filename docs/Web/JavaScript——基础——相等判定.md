@@ -44,7 +44,7 @@ console.log(obj1===obj2)  // false
 
 将一个对象使用等号赋值给另一个对象时，默认使用浅拷贝，即只拷贝指针，那么这两个对象的指针指向同一处，因此相等，如下示例：
 
-```
+```js
 const obj1 = {name:"bob"}
 obj2 = obj1   // 此时只拷贝了指针
 console.log(obj1==obj2)  // true

@@ -54,7 +54,7 @@ Map对象的方法包括：
 
 keys()、values()、entries()的示例如下：
 
-```
+```js
 const map = new Map().set('a',1).set('b',2).set('c',3)
 
 console.log(map.keys())  

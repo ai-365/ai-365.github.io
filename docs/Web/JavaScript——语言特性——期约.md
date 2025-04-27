@@ -4,7 +4,7 @@
 
 期约是为了简化异步编程而设计的语言特性。使用new Promise()构造函数可以新建一个期约，该函数接收一个函数作为参数，我们先传入一个空函数：
 
-```
+```js
 const p=new Promise(()=>{})
 console.log(p)
 // out： Promise { <pending> }
@@ -18,7 +18,7 @@ console.log(p)
 
 如下示例将期约变为resolved状态：
 
-```
+```js
 const p=new Promise((resolve,reject)=>resolve(' Promise Value '))
 console.log(p)
 // 输出：Promise {' Promise Value '}
@@ -28,7 +28,7 @@ console.log(p)
 
 如下示例将期约变为rejected状态：
 
-```
+```js
 const p=new Promise((resolve,reject)=>reject(' Promise Rejeted Value '))
 console.log(p)
 // 输出： Promise { <rejected>  ' Promise Rejeted Value '}

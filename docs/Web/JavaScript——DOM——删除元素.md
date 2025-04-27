@@ -5,20 +5,20 @@
 
 如下示例分别读取body和head的内容：
 
-```
+```js
 console.log(document.body.innerHTML)
 console.log(document.head.innerHTML)
 ```
 
 innerHTML元素既可以读，也可以写，如下示例表示覆盖原有内容，使用新内容：
 
-```
+```js
 document.body.innerHTML='<h1>new content</h1>'
 ```
 
 许多时候并不想要覆盖原内容，而只是想追加新的内容，则应该使用+=：
 
-```
+```js
 document.body.innerHTML += '<h1>appended new content</h1>'
 ```
 
@@ -27,7 +27,7 @@ document.body.innerHTML += '<h1>appended new content</h1>'
 
 元素对象调用remove()方法可以删除自己，例如：
 
-```
+```js
 <body>
         <p>will be deleted content</p>
 </body> 
