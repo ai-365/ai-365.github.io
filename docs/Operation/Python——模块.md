@@ -18,7 +18,7 @@ __all__ = ["a", "foo", "bar"]
 
 这样，在使用如下两个语句中的一个时，都只会导入这三个变量：
 
-```
+```py
 import package
 from package import *
 ```
