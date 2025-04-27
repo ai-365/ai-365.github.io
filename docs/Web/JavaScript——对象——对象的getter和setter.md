@@ -1,5 +1,6 @@
 ##  对象的getter和setter
 
+```js
 const obj ={   
         _a:1,
         get a(){
@@ -10,3 +11,4 @@ const obj ={
                 this._a = v
         }
 }
+```
