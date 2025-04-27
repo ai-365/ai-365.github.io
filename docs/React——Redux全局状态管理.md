@@ -9,7 +9,7 @@
 
 reducer就根据action中的type的不同分开处理，并依赖旧的state和payload返回新的state。
 
-本例中，初始状态是{count: 0}， 如果action的type是inc，则count加1，如果type是dec，则减1，如果type是reset，则归0，如果type是其它的值，则返回旧的state。
+本例中，初始状态是`{count: 0}`， 如果action的type是inc，则count加1，如果type是dec，则减1，如果type是reset，则归0，如果type是其它的值，则返回旧的state。
 
 store.js ：
 
