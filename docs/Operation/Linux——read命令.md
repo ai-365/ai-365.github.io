@@ -1,4 +1,4 @@
-# read命令
+## read命令
 
 Linux read命令用于从标准输入读取值。
 
