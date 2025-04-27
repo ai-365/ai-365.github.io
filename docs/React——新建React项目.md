@@ -4,7 +4,7 @@
 
 运行如下三行命令即可快速新建并启动一个React 项目：
 
-```
+```sh
 npx create-react-app my-app
 cd my-app
 npm run start
