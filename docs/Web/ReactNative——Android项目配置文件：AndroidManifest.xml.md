@@ -41,7 +41,7 @@ application节点是mainfest节点的子节点，指定了应用级别的一些�
 
 字符串变量放在了res/values目录下的strings.xml中。例如：
 
-```
+```xml
 <resources>
         <string name="变量名">变量值</string>
 </resources>
@@ -49,13 +49,13 @@ application节点是mainfest节点的子节点，指定了应用级别的一些�
 
 这样就可以在其它位置直接使用该变量，加上“@string/”前缀即可：
 
-```
+```xml
 android:label = "@string/变量名"
 ```
 
 除了字符串变量，另一个经常引用的资源就是图片。假设软件运行在1080P屏幕上，则首先要把图片放到res/drawable/drawable-xxhdpi目录下，然后可以在xml文件中通过属性android:src引用了，格式语法为：
 
-```
+```xml
 android:src = "@drawable/不带后缀名的图片名称"
 ```
 
@@ -79,7 +79,7 @@ activity节点：
 
 另外，如果该页面是App的入口页面，还应该在该activity节点下面添加一些内容，修改后的节点内容如下：
 
-```
+```xml
 <activity  android:name=".MainActivity">
         <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -94,7 +94,7 @@ user-permission节点是manifest的子节点，与application节点同级。该�
 
 例如，如果应用需要访问网络，则需要声明：
 
-```
+```xml
 <uses-permission android:name="android.permission.INTERNET" />
 ```
 

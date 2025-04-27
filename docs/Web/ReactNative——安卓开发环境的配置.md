@@ -60,13 +60,13 @@ sdkmanager.bat "build-tools;34.0.0" "platform-tools" "platforms;android-34" --no
 
 使用如下命令检查已经安装的包：
 
-```
+```sh
 sdkmanager.bat  --list_installed
 ```
 
 输出内容：应该至少包含如下三个条目：
 
-```
+```sh
 Installed packages:
   Path                 | Version | Description                | Location
   -------              | ------- | -------                    | -------
@@ -80,7 +80,7 @@ Installed packages:
 
 这个步骤容易被忽略，但却非常非常重要，一定一定要执行！使用如下命令接受许可：
 
-```
+```sh
 sdkmanager --licenses
 ```
 
@@ -118,7 +118,7 @@ sdkmanager --licenses
 
 打开终端，运行下面两个命令：
 
-```
+```sh
 javac
 java
 ```
@@ -138,7 +138,7 @@ java
 
 运行：
 
-```
+```sh
 adb  devices 
 ```
 

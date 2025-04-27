@@ -2,7 +2,7 @@
 
 子组件的示例代码如下：
 
-```
+```js
 // Props 子组件
 export default function({ count, handleClick })  {
 

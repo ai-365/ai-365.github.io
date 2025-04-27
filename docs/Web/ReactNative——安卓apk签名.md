@@ -4,7 +4,7 @@
 
 进入到项目的android/app/ 目录下，运行如下命令，这会在当前目录生成密钥文件release.keystore：
 
-```
+```sh
 keytool -genkey -v -keystore release.keystore -alias release -keyalg RSA -keysize 2048 -validity 10000
 ```
 

@@ -8,7 +8,7 @@
 
 如果在pages目录下创建了demo.js，内容如下：
 
-```
+```js
 export default function Demo(){
     return <h1>Demo Page</h1>
 }
@@ -20,7 +20,7 @@ export default function Demo(){
 
 用方括号封装文件夹名，
 
-```
+```js
 // pages/users/[name].js
  
 import { useRouter } from 'next/router'

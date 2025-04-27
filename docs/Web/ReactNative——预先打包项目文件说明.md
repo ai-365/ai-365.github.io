@@ -15,11 +15,11 @@
 
 将这四个文件都下载到本地。
 
-第一步，安装JDK。
+◆  第一步，安装JDK。
 
 双击jdk-20_windows-x64_bin.exe安装JDK到一个目录，例如 D:\Program Files\Java\jdk-20。然后在系统或用户的环境变量列表中，新建一个变量JAVA_HOME，值为JDK的安装目录。然后，在系统或用户的Path变量中，新增一条%JAVA_HOME%\bin。在终端运行 javac、java，测试是否安装配置成功。
 
-第二步，配置Android SDK。
+◆  第二步，配置Android SDK。
 
 然后，解压 Android-SDK.7z 到一个不包含空格的英文路径，例如直接解压到D盘。在系统或用户的环境变量中，新增一个变量ANDROID_HOME，值为D:\Android-SDK。 随后，在系统或用户的Path变量中，新增三条：
 - %ANDROID_HOME%\cmdline-tools\latest\bin
@@ -28,16 +28,16 @@
 
 在终端中依次运行sdkmanager.bat 、 adb检查Android SDK是否配置成功。
 
-第三步，配置gradle。
+◆  第三步，配置gradle。
 
 解压.gradle.7z到用户家目录，注意，压缩包直接包含一个.gradle文件夹，因此直接解压即可，不要再重复创建.gradle文件夹，也就是说，在用户家目录的.gradle文件夹下，应该直接看到子文件夹，而不是.gradle文件夹。
 
-第四步，连接手机。可以通过USB有线连接或者WiFi无线连接。具体方法在另一篇文章中。
+◆  第四步，连接手机。可以通过USB有线连接或者WiFi无线连接。具体方法在另一篇文章中。
 
 至此，环境配置已经完成了。
 
-第五步，解压ReactNativeDemo.7z到一个不包含空格的英文路径下，通过终端进入这个文件，然后运行npm run android，稍等一会儿后，在手机上会看到应用安装请求，点击允许，即可在手机上看到App画面。
+◆  第五步，解压ReactNativeDemo.7z到一个不包含空格的英文路径下，通过终端进入这个文件，然后运行 `npm run android`，稍等一会儿后，在手机上会看到应用安装请求，点击允许，即可在手机上看到App画面。
 
-要构建apk，先通过终端进入项目的android子目录，然后运行 \gradlew.bat assembleRelease，等待一段时间后，即可在app\build\outputs\apk\release目录下看到apk文件，此安装包可以直接安装到手机上。
+要构建apk，先通过终端进入项目的android子目录，然后运行 `\gradlew.bat assembleRelease`，等待一段时间后，即可在 `app\build\outputs\apk\release` 目录下看到apk文件，此安装包可以直接安装到手机上。
 
 
