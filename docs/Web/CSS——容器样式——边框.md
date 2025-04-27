@@ -53,7 +53,7 @@ p{
 
 通用语法为：
 
-```
+```css
 border-[left/right/top/bottom]-[style/color/width]
 ```
 
@@ -72,7 +72,7 @@ p{
 
 width/style/color/这三个属性可以合在一起写，中间用空格隔开，通用语法为：
 
-```
+```css
 border-[left/right/top/bottom]:  [宽度]  [样式]  [颜色]
 ```
 
@@ -82,7 +82,7 @@ border-[left/right/top/bottom]:  [宽度]  [样式]  [颜色]
 border : [宽度] [样式] [颜色]
 ```
 
-```
+```css
 p{
         border:5px solid red;
 }
@@ -120,13 +120,13 @@ p{
 
 要定义圆角边框，使用border-radius属性。
 
-```
+```css
 border-radius: 10px;
 ```
 
 也可以单独为每个角设置一个圆角值，例如：
 
-```
+```css
 border-top-left-radius: 10px;
 ```
 

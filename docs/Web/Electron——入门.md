@@ -3,7 +3,7 @@
 
 运行如下命令安装Electron：
 
-```
+```sh
 npm i electron
 ```
 

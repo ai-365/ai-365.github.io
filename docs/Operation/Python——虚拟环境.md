@@ -2,7 +2,7 @@
 
 要创建虚拟环境，请确定要放置它的目录：
 
-```
+```sh
 python -m venv 虚拟环境目录
 ```
 
@@ -14,6 +14,6 @@ python -m venv 虚拟环境目录
 
 执行如下命令，安装requirements.txt列出的包依赖：
 
-```
+```sh
 pip install -r requirements.txt
 ```

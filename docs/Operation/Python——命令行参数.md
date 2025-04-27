@@ -11,7 +11,7 @@ print(sys.argv)
 
 在终端调用：
 
-```py
+```sh
 python demo.py one two three
 ```
 

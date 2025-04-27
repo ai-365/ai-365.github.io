@@ -47,6 +47,7 @@ os.mkdir('Test') # 在当地目录新建Test文件夹
 ##   重命名文件或目录
 
 使用rename()方法重命名文件或目录，语法如下：
+
 ```py
 os.rename(old_name, new_name)
 ```

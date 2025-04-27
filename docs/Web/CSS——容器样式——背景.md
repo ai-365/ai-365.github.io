@@ -23,7 +23,7 @@
 
 使用网络链接可以设置背景图片。注意，不是直接写链接，而是作为参数传入url()。例如：
 
-```
+```html
 <style>
     div {
         width: 700px;
@@ -65,19 +65,19 @@ body{
 
 使用background-size手动设置背景图片尺寸，可以是绝对尺寸：
 
-```
+```css
 background-size: 400px 500px;
 ```
 
 也可以是相对尺寸,相对的是容器的宽度和高度:
 
-```
+```css
 background-size: 50% 50%;
 ```
 
 还可以是相对容器的文本字号:
 
-```
+```css
 background-size: 2em 4em;
 ```
 
