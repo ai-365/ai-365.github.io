@@ -3,7 +3,7 @@
 
 快速起一个静态文件服务器：
 
-```
+```sh
 python -m http.server 65000
 ```
 
@@ -11,7 +11,7 @@ python -m http.server 65000
 
 FastAPI是Python 的第三方库，用于实现HTTP服务器。如下是一个简单的示例：
 
-```
+```py
 import uvicorn
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse 
@@ -49,7 +49,7 @@ if __name__ == "__main__":
 
 发送post请求：
 
-```
+```py
 import requests
 
 url = 'http://127.0.0.1:8080/post'
@@ -67,7 +67,7 @@ print(response.json())
 
 发送get请求：
 
-```
+```py
 import requests
 
 url = 'http://127.0.0.1:8080/post'
@@ -87,7 +87,7 @@ print(response.json())
 
 在Web开发中，我们经常需要将列表数据封装到HTTP响应中返回给客户端。假设有一个API端点负责返回用户列表：
 
-```
+```py
 from flask import jsonify
 
 users = [
