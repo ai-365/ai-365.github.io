@@ -8,7 +8,7 @@
 
 如下示例列举当前目录下的所有文件或子文件夹：
 
-```
+```py
 import os
 li= os.listdir('.')
 print(li)
@@ -20,7 +20,7 @@ print(li)
 
 使用getcwd()获取工作目录：
 
-```
+```py
 os.getcwd()
 # 'C:\\Users\\用户名'
 ```
@@ -29,7 +29,7 @@ os.getcwd()
 
 使用chdir()改变工作目录：
 
-```
+```py
 os.chdir(r'C:\Users\用户名\Desktop')
 os.getcwd()
 # 'C:\\Users\\用户名\\Desktop'
@@ -39,7 +39,7 @@ os.getcwd()
 
 使用os.mkdir()方法新建文件夹。
 
-```
+```py
 import os
 os.mkdir('Test') # 在当地目录新建Test文件夹
 ```
@@ -47,7 +47,7 @@ os.mkdir('Test') # 在当地目录新建Test文件夹
 ##   重命名文件或目录
 
 使用rename()方法重命名文件或目录，语法如下：
-```
+```py
 os.rename(old_name, new_name)
 ```
 
@@ -59,7 +59,7 @@ os.rename(old_name, new_name)
 
 相对路径到绝对路径的转化，使用：
 
-```
+```py
 os.path.abspath('file.txt') # 返回当前目录下file.txt文件的绝对路径
 # 'D:\\Test\\file.txt'
 ```
@@ -68,14 +68,14 @@ os.path.abspath('file.txt') # 返回当前目录下file.txt文件的绝对路径
 
 basename()方法提取路径的最后一部分。如果是文件，则返回文件名（含后缀）；如果是目录，则返回目录名。
 
-```
+```py
 os.path.basename(r"D:\Test\file.txt")
 # 'file.txt'
 ```
 
 dirname()获取路径所在的文件夹，即去掉路径的最后一个部分，例如：
 
-```
+```py
 os.path.dirname(r"D:\Test\file.txt")
 # 'D:\\Test'
 ```
@@ -84,7 +84,7 @@ os.path.dirname(r"D:\Test\file.txt")
 
 使用join()方法合并多段路径：
 
-```
+```py
 os.path.join(r"D:\Test", r"Test\file.txt")
 # 'D:\\Test\\Test\\file.txt'
 ```
@@ -110,7 +110,7 @@ os.path模块可以检测是否是文件夹、文件、链接、是否存在该�
 
 使用os.rmdir(p)删除空文件夹：
 
-```
+```py
 os.rmdir(r'D:\Test')
 ```
 
@@ -118,7 +118,7 @@ os.rmdir(r'D:\Test')
 
 使用os.removedirs(p)递归删除空文件夹：
 
-```
+```py
 os.removedirs(r'D:\Test')
 ```
 
@@ -126,7 +126,7 @@ os.removedirs(r'D:\Test')
 
 如果要删除非空文件夹，应使用shutil库的rmtree(p)方法。
 
-```
+```py
 import shutil
 shutil.rmtree(r'D:\Test')
 ```

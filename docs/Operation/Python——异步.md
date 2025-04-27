@@ -18,7 +18,7 @@
 
 通过asyncio的create_task方法，可以将所有任务都收集到一个队列中。任务在这里具体表现为函数。如果这个队列中中存在耗时操作，例如文件读取、网络请求、sleep，并不会阻塞等待，而是会执行后面的任务。
 
-```
+```py
 import asyncio
 
 async def task_one():

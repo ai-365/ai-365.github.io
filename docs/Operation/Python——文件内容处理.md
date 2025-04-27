@@ -10,7 +10,7 @@
 
 在处理文件对象时，最好使用 with 关键字。优点是，子句体结束后，文件会正确关闭，即便触发异常也可以。而且，使用 with 相比等效的 try-finally 代码块要简短得多。
 
-```
+```py
 with open('file.txt',encoding='utf8') as f:
 ```
 
@@ -22,7 +22,7 @@ f 也叫做文件描述符，这和C语言中的概念是类似的。得到f后�
 
 使用with语句，子句体结束后，文件会正确关闭，使用closed属性可以检查文件是否已关闭：
 
-```
+```py
 with open('file.txt',encoding='utf8') as f :
         print(f.read())
         
@@ -33,7 +33,7 @@ f.closed # True
 
 没有直接的方式新建文件，可以通过open()的方式新建。因为open()的原则是不存在就新建。
 
-```
+```py
 # 注意，一定要加上'w'或'a'参数
 file = open('file.txt', 'w', encoding='utf-8')
 file.write('内容')
@@ -46,7 +46,7 @@ file.close()
 
 使用read()方法读取全部的内容到一个字符串中，例如：
 
-```
+```py
 with open('file.txt',encoding='utf8') as f :
         print(f.read())
 ```
@@ -56,7 +56,7 @@ with open('file.txt',encoding='utf8') as f :
 
 f对象是可以可迭代对象，使用next()可以逐行读取，如下示例调用了三次next()，相当于读取了前三行：
 
-```
+```py
 with open('file.txt',encoding='utf8') as f :
         print(next(f))
         print(next(f))
@@ -68,7 +68,7 @@ with open('file.txt',encoding='utf8') as f :
 
 要将文件读取为列表，只需要将read()替换为readlines()即可：
 
-```
+```py
 with open('file.txt','r',encoding='utf8') as f :
         print(f.readlines())
 ```
@@ -83,7 +83,7 @@ csv第一行表示字段名，从第二行开始，每一行代表一条记录�
 
 如下是读取CSV的示例：
 
-```
+```py
 import csv
 f=open('file.csv')
 reader = csv.reader(f)
@@ -104,7 +104,7 @@ reader是一个可迭代对象，可使用for in 语句遍历。
 
 要写入文件内容，需要将第二个参数设置为w。如下示例先删除原有的内容，替换为新内容。如果文件不存在，则创建新文件。
 
-```
+```py
 with open('file.txt','w',encoding='utf8') as f :
         f.write('写入的新内容')
 ```
@@ -113,7 +113,7 @@ with open('file.txt','w',encoding='utf8') as f :
 
 要在文件末尾追加内容，需要将第二个参数设置为a。如下示例将新内容追加到文件末尾，如果文件不存在，则创建新文件。
 
-```
+```py
 with open('file.txt','a',encoding='utf8') as f :
         f.write('追加的新内容')
 ```
@@ -124,7 +124,7 @@ with open('file.txt','a',encoding='utf8') as f :
 
 使用splitext()方法可以拆分路径的后缀，返回一个元组：
 
-```
+```py
 os.path.splitext(r"D:\Test\file.txt")
 # ('D:\\Test\\file', '.txt')
 ```
@@ -144,7 +144,7 @@ os.path.splitext(r"D:\Test\file.txt")
 
 使用json模块的dumps()方法可以将对象转换为json文本：
 
-```
+```py
 import json
 di = {'姓名':'张三', '国籍':'中国'}
 jsonStr = json.dumps(di, ensure_ascii=False)
@@ -157,7 +157,7 @@ print(jsonStr)
 
 也可以可以使用dump()方法直接将对象直接存为json文件：
 
-```
+```py
 import json
 di = {'姓名':'张三', '国籍':'中国'}
 with open('file.json','w',encoding='utf8') as f :
@@ -168,7 +168,7 @@ with open('file.json','w',encoding='utf8') as f :
 
 使用json模块的loads()方法可以将JSON文本转换为Python对象，例如：
 
-```
+```py
 import json
 jsonStr = '{"姓名": "张三", "国籍": "中国"}'
 
@@ -181,7 +181,7 @@ jsonStr就是一个普通的字符串，一般来源于对一个json文件的读
 
 也可以直接加载json文件为Python对象，注意，json文件一定要是utf8编码。例如：
 
-```
+```py
 import json
 with open('file.json',encoding='utf8') as f :
         di = json.load(f)
