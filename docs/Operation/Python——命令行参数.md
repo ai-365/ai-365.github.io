@@ -4,20 +4,20 @@
 
 一个脚本demo.py内容：
 
-```
+```py
 import sys
 print(sys.argv)
 ```
 
 在终端调用：
 
-```
+```py
 python demo.py one two three
 ```
 
 输出结果：
 
-```
+```py
 ['demo.py', 'one', 'two', 'three']
 ```
 

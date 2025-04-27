@@ -2,14 +2,14 @@
 
 安装plyer：
 
-```
+```sh
 pip install plyer
 ```
 
 
 如下示例发送了一个桌面通知：
 
-```
+```sh
 from plyer import notification
 notification.notify(
     title="test",		#标题

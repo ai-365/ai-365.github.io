@@ -12,7 +12,7 @@
 
 使用str()可将其它数据类型转换为字符串。下面是一些示例：
 
-```
+```py
 str1 = str(123)
 print(str1,type(str1))
 # 123 <class 'str'>
@@ -28,7 +28,7 @@ print(str3,type(str3))
 
 使用str()可将其它数据类型转换为字符串。下面是一些示例：
 
-```
+```py
 str1 = str(123)
 
 str2 = str([1,2,3])
@@ -38,7 +38,7 @@ str3 = str({"a":1,"b":2})
 
 str()可以避免字符串和数字合并时发生的错误，例如下面的例子，你可能期望输出 'I am 40 years old'，但实际会发生语法错误：
 
-```
+```py
 age = 40
 print('I am ' + age + ' years old')
 # TypeError: can only concatenate str (not "int") to str
@@ -46,7 +46,7 @@ print('I am ' + age + ' years old')
 
 此时，str()就派上用场了，将整数转为字符串：
 
-```
+```py
 age = 40
 print('I am ' + str(age) + ' years old')
 # I am 40 years old
@@ -58,7 +58,7 @@ print('I am ' + str(age) + ' years old')
 执行字符串格式化操作。点号左边的字符串如果包括花括号括起来的替换域，替换域可以包含位置索引。点号右边写上替换为的值，如果有多个替换域，依次书写。
 
 
-```python
+```py
 "The sum of 1 + 2 is {0}".format(1+2)
 # 'The sum of 1 + 2 is 3'
 ```
@@ -74,14 +74,14 @@ print('I am ' + str(age) + ' years old')
 
 可以使用加号合并两个或多个字符串，例如：
 
-```
+```py
 'Py' + 'thon'
 # 'Python'
 ```
 
 使用空格也可以合并，不过这种方式仅适用于字符串字面量，例如：
 
-```
+```py
 'Py'  'thon'
 # 'Python'
 ```
@@ -99,13 +99,13 @@ print('I am ' + str(age) + ' years old')
 
 ###  移除前缀、后缀
 
-```
+```py
 str.removeprefix(prefix)
 ```
 
 如果字符串以prefix开头，则返回删除了该前缀的新子串。如果不以该前缀开头，返回原字符串。
 
-```Python
+```py
 'TestHook'.removeprefix('Test')
 # 'Hook'
 
@@ -114,13 +114,13 @@ str.removeprefix(prefix)
 #  虽然包含，但不是前缀
 ```
 
-```
+```py
 str.removesuffix(suffix)
 ```
 
 如果字符串以 suffix 字符串结尾，则返回删除了该后缀的新子串。如果不以该后缀结尾，返回原字符串。
 
-```
+```py
 'MiscTests'.removesuffix('Tests')
 # 'Misc'
 ```
@@ -128,7 +128,7 @@ str.removesuffix(suffix)
 ###   startswith()和endswith()
 
 
-```
+```py
 str.endswith(substr)
 ```
 
@@ -136,7 +136,7 @@ str.endswith(substr)
 
 可选参数，限定起始和结束位置。
 
-```
+```py
 str.startswith(substr)
 ```
 

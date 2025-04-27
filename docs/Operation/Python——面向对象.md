@@ -11,7 +11,7 @@
 
 使用class关键字创建类，类名习惯上首字母大写。注意，类名后面一定要跟上括号和冒号。
 
-```
+```py
 class Dog():
         """一次模拟小狗的简单尝试"""
 
@@ -34,13 +34,13 @@ class Dog():
 
 注意，不要写new。
 
-```
+```py
 dog = Dog('milk', 3)
 ```
 
 ###  使用句号语法访问属性和成员
 
-```
+```py
 dog.name
 # milk
 
@@ -52,7 +52,7 @@ dog.sit()
 
 Python中，比较常见的类型有str、int、float。
 
-```
+```py
 a:int = 1
 
 str:str = 'hello' 

@@ -12,7 +12,7 @@
 
 模块可以指定只导出哪些内容，这是可以使用__all__变量，例如：
 
-```
+```py
 __all__ = ["a", "foo", "bar"]
 ```
 
@@ -25,7 +25,7 @@ from package import *
 
 `import` 语句导入另一个模块对象，另一个模块导出的内容都是该对象的成员，例如：
 
-```
+```py
 import package
 // 使用
 package.foo()
@@ -33,7 +33,7 @@ package.foo()
 
 要使用from语句导入特定的变量，使用：
 
-```
+```py
 from package import a, foo
 // 使用
 print(a)
@@ -42,13 +42,13 @@ foo()
 
 还可以导入另一个模块导出的全部内容：
 
-```
+```py
 from package import *
 ```
 
 还可以在导入时重命名：
 
-```
+```py
 from package import a as alias1
 ```
 

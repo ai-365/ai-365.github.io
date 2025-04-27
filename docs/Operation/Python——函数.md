@@ -8,7 +8,7 @@
 
 使用位置参数时，必须严格按照定义的顺序依次传入。
 
-```
+```py
 def foo(first,last):
         print('hello', first, last)
 
@@ -20,7 +20,7 @@ foo('John','Baiden')
 
 如果指定了形参变量名，可以不严格按照顺序传递实参值，例如：
 
-```
+```py
 def foo(first,last):
         print('hello', first, last)
 
@@ -35,7 +35,7 @@ foo(last= 'Baiden', first= 'John')
 
 在传递实参时，把后面的所有参数均打包为一个列表。
 
-```
+```py
 def foo(*names):
     print('welcome:')
     for name in names:
@@ -59,7 +59,7 @@ foo('mike','bob','smith')
 
 此时，无论传递多少个关键字实参，都会打包成一个字典传给函数调用。
 
-```
+```py
 def foo(**infos):
     print('welcome')
     for key,value in infos.items():
@@ -78,7 +78,7 @@ foo(mike='manager',bob='programer',smith='speaker')
 
 使用Lambda关键字定义一个Lambda函数，语法如下：
 
-```
+```py
 lambda 参数列表: 表达式
 ```
 

@@ -4,21 +4,21 @@
 
 要处理日期和时间，最常用到datetime模块，首先要导入该模块：
 
-```
+```py
 from datetime import datetime
 ```
 
 
 ### 返回当前时间
 
-```
+```py
 datetime.now()
 ```
 
 
 ### 返回当前时间戳
 
-```
+```py
 from datetime import datetime
 now = datetime.now()
 print(now.timestamp())
@@ -26,19 +26,19 @@ print(now.timestamp())
 
 ### 创建时间
 
-```
+```py
 datetime(2023, 3, 15, 12, 30)
 ```
 
 ### 基于字符串创建时间
 
-```
+```py
 datetime.strptime("2023-03-15 12:30:00", "%Y-%m-%d %H:%M:%S")
 ```
 
 ### 时间戳转时间
 
-```
+```py
 datetime.fromtimestamp(1716437763.1540167)
 # datetime.datetime(2024, 5, 23, 12, 16, 3, 154017)
 # 最后一个是毫秒
@@ -48,13 +48,13 @@ datetime.fromtimestamp(1716437763.1540167)
 
 返回2023-3-15 12:30对应的时间戳：
 
-```
+```py
 datetime(2023, 3, 15, 12, 30).timestamp()
 ```
 
 ### 基于时间提取要素
 
-```
+```py
 now = datetime.now()
 
 # 提取年
