@@ -50,11 +50,6 @@ const config = {
         docs: {
           routeBasePath: '/',  // 设置docs的根目录为项目根目录
           
-          
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         
         blog: false,  // 取消博客功能
@@ -70,6 +65,7 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      // 隐藏侧边栏
       docs: {
         sidebar: {
           hideable: true,
