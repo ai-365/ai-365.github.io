@@ -23,7 +23,7 @@ import package
 from package import *
 ```
 
-import 语句导入另一个模块对象，另一个模块导出的内容都是该对象的成员，例如：
+`import` 语句导入另一个模块对象，另一个模块导出的内容都是该对象的成员，例如：
 
 ```
 import package
