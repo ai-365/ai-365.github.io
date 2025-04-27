@@ -1,5 +1,6 @@
 ##  自定义事件
 
+```js
 class CustomEvent {
     constructor() {
         this.listeners = {};
@@ -27,19 +28,22 @@ class CustomEvent {
 const myEvent = new CustomArray();
 
 export {myEvent}
-
+```
 
 ## 监听端
 
+```js
 import { myEvent } from "./自定义事件.mjs";
 
 myEvent.on('change', () => console.log('Array changed!'));
 
 setInterval(()=>console.log('监听中'),1000)
-
+```
 
 ## 触发端
+
+```js
 import { myEvent} from "./自定义事件.mjs";
 
 setInterval(()=>myEvent.push('change'),1500)
-
+```
