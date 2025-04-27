@@ -13,7 +13,6 @@ reducer就根据action中的type的不同分开处理，并依赖旧的state和p
 
 store.js ：
 
-
 ```js
 import {createStore} from 'redux'
 
