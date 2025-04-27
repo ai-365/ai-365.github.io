@@ -1,3 +1,5 @@
+## JavaScript
+
 ### 基础
 -  [布尔类型](JavaScript——基础——布尔类型.md)
 -  [简介](JavaScript——基础——简介.md)
@@ -8,11 +10,3 @@
 -  [字符串基础](JavaScript——基础——字符串基础.md)
 -  [字符串的方法](JavaScript——基础——字符串的方法.md)
 -  [字符串模板字面量](JavaScript——基础——字符串模板字面量.md)
-
-
-
-
-
-
-
-2
