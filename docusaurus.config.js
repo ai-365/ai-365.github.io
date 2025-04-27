@@ -50,6 +50,10 @@ const config = {
         docs: {
           routeBasePath: '/',  // 设置docs的根目录为项目根目录
           sidebarPath: './sidebars.js',
+          sidebar: {
+            hideable: true,
+            autoCollapseCategories: false,
+          },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -69,6 +73,7 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+
       navbar: {
         title: 'My Site',
         logo: {
