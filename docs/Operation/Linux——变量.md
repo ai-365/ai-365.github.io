@@ -3,7 +3,8 @@
 变量在Linux脚本中非常常见。
 
 声明变量很简单，只需要使用等号将变量名和变量值连接起来即可：
-```
+
+```sh
 a=1
 str=hello
 echo $a
@@ -16,7 +17,8 @@ echo $str
 str ="hello bash"
 ```
 要特别注意，等号两边不能有空格，下面的命令是错的：
-```
+
+```sh
 a  =  1
 bash: a: command not found
 ```
@@ -26,7 +28,7 @@ bash会把a当做命令、= 和1当做参数去执行。
 ### 打印变量
 
 使用echo加上美元符号$和花括号打印变量：
-```
+```sh
 echo $PATH
 echo ${PATH}
 ```

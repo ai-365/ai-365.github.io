@@ -16,7 +16,7 @@
 
 安装好Git之后，打开终端工具，输入如下几个命令检测是否安装成功：
 
-```
+```sh
 git --help    # 查看帮助
 git --version   # 查看git版本号
 ```
@@ -29,7 +29,7 @@ git --version   # 查看git版本号
 
 首先进入Bash环境，运行如下命令：
 
-```
+```sh
 ssh-keygen -t rsa -C "邮箱"
 ```
 
@@ -66,7 +66,7 @@ ssh -T -p 443 git@ssh.github.com
     
 在以后提交到仓库的时候需要指定用户名和邮箱，这里提前进行全局设置，以后默认使用该身份。使用如下命令设置用户名和邮箱：
 
-```
+```sh
 git config  --global  user.name "姓名"
 git config  --global  user.email "邮箱"
 ```
