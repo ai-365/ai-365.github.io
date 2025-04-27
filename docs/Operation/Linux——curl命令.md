@@ -10,7 +10,7 @@ curl还支持SSL认证、HTTP POST、HTTP PUT、FTP上传,
 
 例如如下一行命令访问百度，可用于检测是否联网：
 
-```
+```sh
 curl https://www.baidu.com
 ```
 
@@ -18,7 +18,7 @@ curl https://www.baidu.com
 
 如下命令将返回的内容保存到本地：
 
-```
+```sh
 curl URL >> 1.html
 curl  https://www.baidu.com   -o 2.html
 curl    https://www.baidu.com  -O

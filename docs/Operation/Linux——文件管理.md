@@ -65,7 +65,7 @@ rm命令的作用是删除文件或目录，其主要选项如下：
 有时候需要根据路径获取文件名和目录名，可以使用basename命令和dirname命令，这两个命令分别用于获取文件名和目录名，例如：
 
 
-```
+```sh
 basename  /usr/bin/sed  # 取得路径的最后一个名称
 输出：sed
 dirname /usr/bin/sed  # 去掉路径最后一个名称
