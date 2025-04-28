@@ -39,7 +39,7 @@ tf.zeros([2, 2]).print();
 
 创建一个模型
 
-```
+```js
 const model = tf.sequential();
 ```
 
