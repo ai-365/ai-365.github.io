@@ -45,7 +45,9 @@ const model = tf.sequential();
 
 添加层
 
+```js
 model.add(tf.layers.dense({units: 1}));
+```
 
 inputShape
  神经网络的输入形状，如果只有1个数字，则为[1]
@@ -63,7 +65,9 @@ activation
 
 添加层
 
+```js
 model.add(tf.layers.dense({inputShape: [1], units: 1, useBias: true}));
+```
 
 ```html
 <!DOCTYPE html>
