@@ -63,8 +63,8 @@ const sidebars = {
    
         {
           type:'doc',
-          id:'React——表单双向绑定',
-          label: 'React——表单双向绑定'
+          id:'Web/React——表单双向绑定',
+          label: '表单双向绑定'
         },
        
        
