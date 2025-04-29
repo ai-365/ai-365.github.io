@@ -37,8 +37,25 @@ const sidebars = {
 
     {
       type: 'category',
+      label: '基础',
+      items: [
+        { type: 'doc', id: 'Web/JavaScript——基础——字符串模板字面量', label: '字符串模板字面量' },
+        { type: 'doc', id: 'Web/JavaScript——基础——字符串基础', label: '字符串基础' },
+        { type: 'doc', id: 'Web/JavaScript——基础——字符串的方法', label: '字符串的方法' },
+        { type: 'doc', id: 'Web/JavaScript——基础——正则表达式', label: '正则表达式' },
+        { type: 'doc', id: 'Web/JavaScript——基础——相等判定', label: '相等判定' },
+        { type: 'doc', id: 'Web/JavaScript——基础——数值类型', label: '数值类型' },
+        { type: 'doc', id: 'Web/JavaScript——基础——数据类型简介', label: '数据类型简介' },
+        { type: 'doc', id: 'Web/JavaScript——基础——可选链', label: '可选链' },
+        { type: 'doc', id: 'Web/JavaScript——基础——简介', label: '简介' },
+        { type: 'doc', id: 'Web/JavaScript——基础——布尔类型', label: '布尔类型' },
+      ]
+    },
+
+    {
+      type: 'category',
       label: '函数',
-      items:[
+      items: [
         { type: 'doc', id: 'Web/JavaScript——函数——立执行函数', label: '立执行函数' },
         { type: 'doc', id: 'Web/JavaScript——函数——箭头函数', label: '箭头函数' },
         { type: 'doc', id: 'Web/JavaScript——函数——函数内部的this对象', label: '函数内部的this对象' },
@@ -153,7 +170,7 @@ const sidebars = {
   ],
 
 
-  CSSSidebar:[
+  CSSSidebar: [
     {
       type: 'category',
       label: '容器样式',
@@ -167,7 +184,7 @@ const sidebars = {
     {
       type: 'category',
       label: '特殊效果',
-      items:[
+      items: [
         { type: 'doc', id: 'Web/CSS——特殊效果——box-shadow块阴影', label: 'box-shadow块阴影' },
         { type: 'doc', id: 'Web/CSS——特殊效果——线性渐变', label: '线性渐变' },
         { type: 'doc', id: 'Web/CSS——特殊效果——图片阴影', label: '图片阴影' },
@@ -179,7 +196,7 @@ const sidebars = {
   ],
 
 
-  ReactNativeSidebar:[
+  ReactNativeSidebar: [
     { type: 'doc', id: 'Web/ReactNative——安卓开发环境的配置', label: '安卓开发环境的配置' },
     { type: 'doc', id: 'Web/ReactNative——预先打包项目文件说明', label: '预先打包项目文件说明' },
     { type: 'doc', id: 'Web/ReactNative——安卓apk签名', label: '安卓apk签名' },
