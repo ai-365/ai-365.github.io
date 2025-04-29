@@ -31,7 +31,7 @@ const sidebars = {
   ],
    */
 
-  mySidebar:[
+  WebSidebar:[
     {
       type: 'DOM', 
       label: 'Web' ,
