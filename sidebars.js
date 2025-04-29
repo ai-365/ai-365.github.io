@@ -255,6 +255,33 @@ const sidebars = {
     { type: 'doc', id: 'Operation/PowerShell——CSV和JSON', label: 'CSV和JSON' },
   ],
 
+  PythonSidebar:[
+    { type: 'doc', id: 'Operation/Python——index', label: '目录' },
+    { type: 'doc', id: 'Operation/Python——读写环境变量', label: '读写环境变量' },
+    { type: 'doc', id: 'Operation/Python——发送桌面通知', label: '发送桌面通知' },
+    { type: 'doc', id: 'Operation/Python——函数', label: '函数' },
+    { type: 'doc', id: 'Operation/Python——基础——常见的内置函数', label: '常见的内置函数' },
+    { type: 'doc', id: 'Operation/Python——基础——基础语法', label: '基础语法' },
+    { type: 'doc', id: 'Operation/Python——基础——正则表达式', label: '正则表达式' },
+    { type: 'doc', id: 'Operation/Python——基础——字符串', label: '字符串' },
+    { type: 'doc', id: 'Operation/Python——列表', label: '列表' },
+    { type: 'doc', id: 'Operation/Python——面向对象', label: '面向对象' },
+    { type: 'doc', id: 'Operation/Python——命令行参数', label: '命令行参数' },
+    { type: 'doc', id: 'Operation/Python——模块', label: '模块' },
+    { type: 'doc', id: 'Operation/Python——日期和时间', label: '日期和时间' },
+    { type: 'doc', id: 'Operation/Python——文件目录处理', label: '文件目录处理' },
+    { type: 'doc', id: 'Operation/Python——文件内容处理', label: '文件内容处理' },
+    { type: 'doc', id: 'Operation/Python——虚拟环境', label: '虚拟环境' },
+    { type: 'doc', id: 'Operation/Python——序列', label: '序列' },
+    { type: 'doc', id: 'Operation/Python——异步', label: '异步' },
+    { type: 'doc', id: 'Operation/Python——映射', label: '映射' },
+    { type: 'doc', id: 'Operation/Python——元组', label: '元组' },
+    { type: 'doc', id: 'Operation/Python——执行系统命令', label: '执行系统命令' },
+    { type: 'doc', id: 'Operation/Python——字典', label: '字典' },
+    { type: 'doc', id: 'Operation/Python——HTTP', label: 'HTTP' },
+    { type: 'doc', id: 'Operation/Python——pip包管理器', label: 'pip包管理器' },
+  ],
+
 };
 
 export default sidebars;
