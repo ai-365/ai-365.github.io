@@ -87,10 +87,9 @@ const config = {
           },
 
           {
-            type: 'docSidebar',
-            sidebarId: 'ReactSidebar',
-            position: 'left',
+            to: '/Web/React——index',
             label: 'React Guide',
+            position: 'left',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
