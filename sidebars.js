@@ -214,7 +214,30 @@ const sidebars = {
   ],
 
 
-  
+  LinuxSidebar: [
+    { type: 'doc', id: 'Operation/小知识——阿里云盘命令行', label: '阿里云盘命令行' },
+    { type: 'doc', id: 'Operation/小知识——压缩和解压', label: '压缩和解压' },
+    { type: 'doc', id: 'Operation/小知识——Docusaurus', label: 'Docusaurus' },
+    { type: 'doc', id: 'Operation/Git——安装和配置', label: '安装和配置' },
+    { type: 'doc', id: 'Operation/Git——分支', label: '分支' },
+    { type: 'doc', id: 'Operation/Git——回退', label: '回退' },
+    { type: 'doc', id: 'Operation/Git——克隆', label: '克隆' },
+    { type: 'doc', id: 'Operation/Git——推送到远程仓库', label: '推送到远程仓库' },
+    { type: 'doc', id: 'Operation/Git——暂存和提交', label: '暂存和提交' },
+    { type: 'doc', id: 'Operation/Git——最常用的Git命令', label: '最常用的Git命令' },
+    { type: 'doc', id: 'Operation/Github——Actions', label: 'Github Actions' },
+    { type: 'doc', id: 'Operation/Linux——编写Dockerfile文件', label: '编写Dockerfile文件' },
+    { type: 'doc', id: 'Operation/Linux——变量', label: '变量' },
+    { type: 'doc', id: 'Operation/Linux——管道', label: '管道' },
+    { type: 'doc', id: 'Operation/Linux——进程管理', label: '进程管理' },
+    { type: 'doc', id: 'Operation/Linux——使用Docker', label: '使用Docker' },
+    { type: 'doc', id: 'Operation/Linux——输出重定向', label: '输出重定向' },
+    { type: 'doc', id: 'Operation/Linux——数组', label: '数组' },
+    { type: 'doc', id: 'Operation/Linux——条件表达式和if语句', label: '条件表达式和if语句' },
+    { type: 'doc', id: 'Operation/Linux——重定向', label: '重定向' },
+    { type: 'doc', id: 'Operation/Linux——curl命令', label: 'curl命令' },
+  ],
+
 };
 
 export default sidebars;

@@ -42,11 +42,11 @@
 
 ###  PowerShell
 
-[比较运算符](PowerShell——比较运算符)
-[读取文件到数组](PowerShell——读取文件到数组)
-[获取剪贴板内容](PowerShell——获取剪贴板内容)
-[基础](PowerShell——基础)
-[数组](PowerShell——数组)
-[CSV和JSON](PowerShell——CSV和JSON)
+-  [比较运算符](PowerShell——比较运算符)
+-  [读取文件到数组](PowerShell——读取文件到数组)
+-  [获取剪贴板内容](PowerShell——获取剪贴板内容)
+-  [基础](PowerShell——基础)
+-  [数组](PowerShell——数组)
+-  [CSV和JSON](PowerShell——CSV和JSON)
 
 
