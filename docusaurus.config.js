@@ -85,7 +85,7 @@ const config = {
           },
 
           {
-            to: 'Web/React——index',
+            to: 'Web/React——TOC',
             label: 'React Guide',
             position: 'left',
           },
@@ -97,7 +97,7 @@ const config = {
           },
 
           {
-            to: 'Operation/Python——index',
+            to: 'Operation/Python——TOC',
             label: 'Python Guide',
             position: 'left',
           },

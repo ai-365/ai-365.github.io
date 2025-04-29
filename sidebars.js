@@ -98,7 +98,7 @@ export default {
   ],
 
   ReactSidebar: [
-    { type: 'doc', id: 'Web/React——index', label: '目录' },
+    { type: 'doc', id: 'Web/React——TOC', label: '目录' },
     { type: 'doc', id: 'Web/React——新建React项目', label: '新建React项目' },
     { type: 'doc', id: 'Web/React——使用Vite创建React项目', label: '使用Vite创建React项目' },
     { type: 'doc', id: 'Web/React——添加样式', label: '添加样式' },
@@ -184,7 +184,7 @@ export default {
   ],
 
   PythonSidebar: [
-    { type: 'doc', id: 'Operation/Python——index', label: '目录' },
+    { type: 'doc', id: 'Operation/Python——TOC', label: '目录' },
     { type: 'doc', id: 'Operation/Python——读写环境变量', label: '读写环境变量' },
     { type: 'doc', id: 'Operation/Python——发送桌面通知', label: '发送桌面通知' },
     { type: 'doc', id: 'Operation/Python——函数', label: '函数' },

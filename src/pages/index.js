@@ -24,7 +24,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="Web/React——index">
+            to="Web/React——TOC">
             React Guide
           </Link>
           <Link
@@ -34,7 +34,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="Operation/Python——index">
+            to="Operation/Python——TOC">
             Python Guide
           </Link>
         </div>
