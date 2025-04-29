@@ -32,8 +32,20 @@ const sidebars = {
    */
 
   JavaScriptSidebar: [
+    {
+      type: 'category',
+      label: '数组',
+      items:[
+        { type: 'doc', id: 'Web/JavaScript——数组——数组的本质也是对象', label: '数组的本质也是对象' },
+        { type: 'doc', id: 'Web/JavaScript——数组——数组的方法', label: '数组的方法' },
+        { type: 'doc', id: 'Web/JavaScript——数组——数组的归并', label: '数组的归并' },
+        { type: 'doc', id: 'Web/JavaScript——数组——数组的基础语法', label: '数组的基础语法' },
+        { type: 'doc', id: 'Web/JavaScript——数组——数组的排序', label: '数组的排序' },
+        { type: 'doc', id: 'Web/JavaScript——数组——新建或转化为数组', label: '新建或转化为数组' },
+        { type: 'doc', id: 'Web/JavaScript——数组——Set集合类型', label: 'Set集合类型' },
+      ]
+    },
 
-    
     {
       type: 'category',
       label: '对象',
@@ -47,7 +59,7 @@ const sidebars = {
         { type: 'doc', id: 'Web/JavaScript——对象——对象的getter和setter', label:'对象的getter和setter' },
         { type: 'doc', id: 'Web/JavaScript——对象——对象的语法规则', label: '对象的语法规则' },
         { type: 'doc', id: 'Web/JavaScript——对象——对象的属性特性', label: '对象的属性特性' },
-      ],
+      ]
     },
 
     {
