@@ -32,8 +32,10 @@ const sidebars = {
    */
 
   mySidebar:[
-    type: 'category',
-    label: '显示名称',
+    {
+      type: 'category',
+      label: '显示名称',
+    }
     
   ],
   
