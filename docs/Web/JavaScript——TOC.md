@@ -28,7 +28,7 @@ title: JavaScript学习笔记目录
 ### 数组
 
 -  [新建或转化为数组](JavaScript——数组——新建或转化为数组)
--  [数组的基础语法](JavaScript——数组——数组的基础语法)
+-  [数组的基础语法](./JavaScript——数组——数组的基础语法)
 -  [数组的方法](JavaScript——数组——数组的方法)
 -  [数组的排序](JavaScript——数组——数组的排序)
 -  [数组的归并](JavaScript——数组——数组的归并)
