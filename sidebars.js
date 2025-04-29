@@ -35,6 +35,8 @@ const sidebars = {
 
   JavaScriptSidebar: [
 
+    { type: 'doc', id: 'Web/JavaScript——index', label: '目录' },
+
     {
       type: 'category',
       label: '基础',
