@@ -88,7 +88,8 @@ uses: actions/setup-node@v4
 ### 使用run 执行命令
 
 使用run执行Linux的命令，例如：
-```
+
+```yml
 run: echo 'hello world'
 ```
 
@@ -123,7 +124,7 @@ run: |
 ```yml
 deploy:
     name: Deploy to GitHub Pages
-    needs: build
+    needs: build  # 前一个job
 
     # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
     permissions:
