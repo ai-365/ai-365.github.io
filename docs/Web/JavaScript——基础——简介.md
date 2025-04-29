@@ -1,4 +1,7 @@
-##  JavaScript简介
+---
+title: JavaScript简介
+---
+
 -  JavaScript的历史
 -  Ecmascript的标准发布和新增特性
 -  JavaScript组成
