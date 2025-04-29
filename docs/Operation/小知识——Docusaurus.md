@@ -140,3 +140,16 @@ export default {
 
 
 ### 顶部导航
+
+```js
+navbar: {
+    items: [
+        {
+            type: 'doc',
+            position: 'left',
+            docId: '文件名不要后缀',
+            label: '显示名称',
+        }
+    ]
+}
+```
