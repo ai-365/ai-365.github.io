@@ -166,7 +166,15 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '容器样式',
+      label: '特殊效果',
+      items:[
+        { type: 'doc', id: 'Web/CSS——特殊效果——box-shadow块阴影', label: 'box-shadow块阴影' },
+        { type: 'doc', id: 'Web/CSS——特殊效果——线性渐变', label: '线性渐变' },
+        { type: 'doc', id: 'Web/CSS——特殊效果——图片阴影', label: '图片阴影' },
+        { type: 'doc', id: 'Web/CSS——特殊效果——利用border-radius属性实现裁剪', label: '利用border-radius属性实现裁剪' },
+        { type: 'doc', id: 'Web/CSS——特殊效果——过渡', label: '特殊效果——过渡' },
+        { type: 'doc', id: 'Web/CSS——特殊效果——动画', label: '特殊效果——动画' },
+      ]
     }
   ],
 
