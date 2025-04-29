@@ -48,6 +48,7 @@ const config = {
         // docs: false,
         /**/
         docs: {
+          sidebarPath: './sidebars.js',
           routeBasePath: '/',  // 设置docs的根目录为项目根目录
           
         },
@@ -67,7 +68,6 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       // 隐藏侧边栏
       docs: {
-        sidebarPath: './sidebars.js',
         sidebar: {
           hideable: true,
         },
