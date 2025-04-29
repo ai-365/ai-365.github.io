@@ -4,13 +4,13 @@
 
 使用` > ` 符号将左边本来应该输出到终端的内容重定向到文件，例如：
 
-```
+```sh
 ls > file.txt
 ```
 
 不过这会覆盖file.txt本来的内容，有些时候我们只是想追加输出，则可以使用` >> ` 符号：
 
-```
+```sh
 ls >> file.txt
 ```
 
@@ -18,7 +18,7 @@ ls >> file.txt
 
 例如，当前目录中，exist.txt存在，noexist.txt不存在，运行如下命令：
 
-```
+```sh
 cat exist.txt noexist.txt > sure.txt 2> error.txt
 ```
 
@@ -26,19 +26,19 @@ cat exist.txt noexist.txt > sure.txt 2> error.txt
 
 如下命令将输出和错误发送到同一文件：
 
-```
+```sh
 cat exist.txt noexist.txt  >& out.txt 
 ```
 
 如果要丢弃输出，使用 ` >  /dev/null  2>&1 ` ，例如：
 
-```
+```sh
 cat file.txt  >  /dev/null  2>&1
 ```
 
 可以使用多个命令组合重定向，例如：
 
-```
+```sh
 pwd; ls; date > file.txt
 ```
 
@@ -46,7 +46,7 @@ pwd和ls依然会输出到屏幕，只会把date的结果保存到1.md
 
 可以使用括号，先在子shell中执行，然后重定向：
 
-```
+```sh
 (pwd ; ls ; date ) > file.txt
 ```
 
