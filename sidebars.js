@@ -63,8 +63,29 @@ const sidebars = {
    
         {
           type:'doc',
-          id:'Web/React——表单双向绑定',
-          label: '表单双向绑定'
+          id:'Web/React——新建React项目',
+          label: '新建React项目'
+        },
+        {
+          type:'doc',
+          id:'Web/React——使用Vite创建React项目',
+          label:'使用Vite创建React项目'
+        },
+        {
+          type:'doc',
+          id:'Web/React——添加样式',
+          label: '添加样式'
+        },
+        {
+          type:'category',
+          label: 'Hooks',
+          items:[
+            {
+              type:'doc',
+              id:'Web/React——Hooks——Hooks使用规则',
+              label:'Hooks使用规则'
+            }
+        ]
         },
        
        
