@@ -45,8 +45,8 @@ steps表示多个独立的运行步骤。主要有两类：
 
 工作流的本质是讲仓库中的文件复制到云端中的Linux容器中执行，该容器中安装了常用的软件如nodejs、python、java等。因此第一步就是将仓库复制到容器中，这一步称为“检出”，使用：
 
-```
-actions/checkout@v4
+```yml
+uses: actions/checkout@v4
 ```
 
 ###  name属性
@@ -103,3 +103,17 @@ run: |
     npm run build
 ```
 
+###  上传某个文件夹下的内容到pages
+
+对于博客网站，使用构建工具构建后，会将静态的html、js、css文件放到某个文件夹中，一般为build。
+
+为了使用Github pages服务，需要将该文件夹上传到pages服务中，使用`actions/upload-pages-artifact@v3`，并需要同时指定文件夹相对路径。示例如下：
+
+```yml
+- name: Upload Build Artifact
+  uses: actions/upload-pages-artifact@v3
+  with:
+    path: build
+```
+
+###  
