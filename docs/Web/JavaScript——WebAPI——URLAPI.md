@@ -1,4 +1,6 @@
-##  URL API
+---
+title: URL API
+---
 
 浏览器和Node.js都有一个全局类型URL，使用new URL可以新建一个url实例，便于对链接进行解析。
 
