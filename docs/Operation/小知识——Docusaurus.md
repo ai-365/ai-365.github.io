@@ -151,10 +151,9 @@ export default {
 navbar: {
     items: [
         {
-            type: 'doc',
-            position: 'left',
-            docId: '文件名不要后缀',
+            to: '文件路径不要后缀',
             label: '显示名称',
+            position: 'left',
         }
     ]
 }
