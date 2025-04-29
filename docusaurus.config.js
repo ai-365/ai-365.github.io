@@ -80,25 +80,25 @@ const config = {
         },
         items: [
           {
-            to: '/Web/JavaScript——index',
+            to: 'Web/JavaScript——index',
             label: 'JavaScript Guide',
             position: 'left',
           },
 
           {
-            to: '/Web/React——index',
+            to: 'Web/React——index',
             label: 'React Guide',
             position: 'left',
           },
 
           {
-            to: '/Operation/Linux——index',
+            to: 'Operation/Linux——index',
             label: 'Linux Guide',
             position: 'left',
           },
 
           {
-            to: '/Operation/Python——index',
+            to: 'Operation/Python——index',
             label: 'Python Guide',
             position: 'left',
           },
