@@ -34,18 +34,7 @@ const sidebars = {
   mySidebar:[
     type: 'category',
     label: '显示名称',
-    items: [
-      {
-          type: 'doc',
-          id: '/指南',
-          label: '指南'
-      },
-      {
-          type: 'doc',
-          id: '/Web/JavaScript——index',
-          label: 'JavaScript——index'
-      },
-    ] 
+    
   ],
   
 
