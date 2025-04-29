@@ -73,7 +73,7 @@ const config = {
         },
       },
       navbar: {
-        title: 'My Site',
+        title: '我的个人网站',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
