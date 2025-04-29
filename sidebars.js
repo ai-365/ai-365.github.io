@@ -31,10 +31,10 @@ const sidebars = {
   ],
    */
 
-  WebSidebar:[
+  JavaScriptSidebar:[
     {
       type: 'category', 
-      label: 'Web' ,
+      label: 'DOM' ,
       items: [
         {
           type:'doc',
@@ -43,17 +43,31 @@ const sidebars = {
         },
         {
           type:'doc',
-          id:'Web/JavaScript——DOM——删除元素',
-          label: '删除元素'
-        },
-        {
-          type:'doc',
           id:'Web/JavaScript——DOM——添加元素',
           label: '添加元素'
         },
+        {
+          type:'doc',
+          id:'Web/JavaScript——DOM——删除元素',
+          label: '删除元素'
+        },
+       
+      
 
       ]
     }
+    
+  ],
+
+  ReactSidebar:[
+   
+        {
+          type:'doc',
+          id:'React——表单双向绑定',
+          label: 'React——表单双向绑定'
+        },
+       
+       
     
   ],
   
