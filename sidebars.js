@@ -14,11 +14,12 @@
 
  @type {import('@docusaurus/plugin-content-docs').SidebarsConfig}
  */
-const sidebars = {
-  
+export default {
+
   JavaScriptSidebar: [
     { type: 'doc', id: 'Web/JavaScript——index', label: '目录' },
-    {type: 'category',label: '基础',items: [
+    {
+      type: 'category', label: '基础', items: [
         { type: 'doc', id: 'Web/JavaScript——基础——字符串模板字面量', label: '字符串模板字面量' },
         { type: 'doc', id: 'Web/JavaScript——基础——字符串基础', label: '字符串基础' },
         { type: 'doc', id: 'Web/JavaScript——基础——字符串的方法', label: '字符串的方法' },
@@ -32,7 +33,8 @@ const sidebars = {
       ]
     },
 
-    {type: 'category',label: '函数',items: [
+    {
+      type: 'category', label: '函数', items: [
         { type: 'doc', id: 'Web/JavaScript——函数——立执行函数', label: '立执行函数' },
         { type: 'doc', id: 'Web/JavaScript——函数——箭头函数', label: '箭头函数' },
         { type: 'doc', id: 'Web/JavaScript——函数——函数内部的this对象', label: '函数内部的this对象' },
@@ -45,7 +47,8 @@ const sidebars = {
       ]
     },
 
-    {type: 'category',label: '数组',items: [
+    {
+      type: 'category', label: '数组', items: [
         { type: 'doc', id: 'Web/JavaScript——数组——数组的本质也是对象', label: '数组的本质也是对象' },
         { type: 'doc', id: 'Web/JavaScript——数组——数组的方法', label: '数组的方法' },
         { type: 'doc', id: 'Web/JavaScript——数组——数组的归并', label: '数组的归并' },
@@ -56,7 +59,8 @@ const sidebars = {
       ]
     },
 
-    {type: 'category',label: '对象',items: [
+    {
+      type: 'category', label: '对象', items: [
         { type: 'doc', id: 'Web/JavaScript——对象——对象的方法', label: '对象的方法' },
         { type: 'doc', id: 'Web/JavaScript——对象——Map映射类型', label: 'Map映射类型' },
         { type: 'doc', id: 'Web/JavaScript——对象——JSON', label: 'JSON' },
@@ -69,7 +73,8 @@ const sidebars = {
       ]
     },
 
-    {type: 'category',label: 'WebAPI',items: [
+    {
+      type: 'category', label: 'WebAPI', items: [
         { type: 'doc', id: 'Web/JavaScript——WebAPI——地理定位', label: '地理定位' },
         { type: 'doc', id: 'Web/JavaScript——WebAPI——定时器', label: '定时器' },
         { type: 'doc', id: 'Web/JavaScript——WebAPI——桌面通知', label: '桌面通知' },
@@ -82,7 +87,8 @@ const sidebars = {
       ]
     },
 
-    {type: 'category',label: 'DOM',items: [
+    {
+      type: 'category', label: 'DOM', items: [
         { type: 'doc', id: 'Web/JavaScript——DOM——获取元素', label: '获取元素' },
         { type: 'doc', id: 'Web/JavaScript——DOM——添加元素', label: '添加元素' },
         { type: 'doc', id: 'Web/JavaScript——DOM——删除元素', label: '删除元素' },
@@ -92,17 +98,19 @@ const sidebars = {
   ],
 
   ReactSidebar: [
-    {type: 'doc',id: 'Web/React——index',label: '目录'},
-    {type: 'doc',id: 'Web/React——新建React项目',label: '新建React项目'},
-    {type: 'doc',id: 'Web/React——使用Vite创建React项目',label: '使用Vite创建React项目'},
-    {type: 'doc',id: 'Web/React——添加样式',label: '添加样式'},
-    {type: 'category',label: 'Hooks',items: [
-        {type: 'doc',id: 'Web/React——Hooks——Hooks使用规则',label: 'Hooks使用规则'},
-        {type: 'doc',id: 'Web/React——Hooks——useState()',label: 'useState()'},
-        {type: 'doc',id: 'Web/React——Hooks——useEffect()',label: 'useEffect()'},
+    { type: 'doc', id: 'Web/React——index', label: '目录' },
+    { type: 'doc', id: 'Web/React——新建React项目', label: '新建React项目' },
+    { type: 'doc', id: 'Web/React——使用Vite创建React项目', label: '使用Vite创建React项目' },
+    { type: 'doc', id: 'Web/React——添加样式', label: '添加样式' },
+    {
+      type: 'category', label: 'Hooks', items: [
+        { type: 'doc', id: 'Web/React——Hooks——Hooks使用规则', label: 'Hooks使用规则' },
+        { type: 'doc', id: 'Web/React——Hooks——useState()', label: 'useState()' },
+        { type: 'doc', id: 'Web/React——Hooks——useEffect()', label: 'useEffect()' },
       ]
     },
-    {type: 'category',label: 'React Native',items: [
+    {
+      type: 'category', label: 'React Native', items: [
         { type: 'doc', id: 'Web/ReactNative——安卓开发环境的配置', label: '安卓开发环境的配置' },
         { type: 'doc', id: 'Web/ReactNative——预先打包项目文件说明', label: '预先打包项目文件说明' },
         { type: 'doc', id: 'Web/ReactNative——安卓apk签名', label: '安卓apk签名' },
@@ -113,14 +121,16 @@ const sidebars = {
 
 
   CSSSidebar: [
-    {type: 'category',label: '容器样式',items: [
+    {
+      type: 'category', label: '容器样式', items: [
         { type: 'doc', id: 'Web/CSS——容器样式——轮廓', label: '轮廓' },
         { type: 'doc', id: 'Web/CSS——容器样式——边框', label: '边框' },
         { type: 'doc', id: 'Web/CSS——容器样式——背景', label: '背景' },
 
       ]
     },
-    {type: 'category',label: '特殊效果',items: [
+    {
+      type: 'category', label: '特殊效果', items: [
         { type: 'doc', id: 'Web/CSS——特殊效果——box-shadow块阴影', label: 'box-shadow块阴影' },
         { type: 'doc', id: 'Web/CSS——特殊效果——线性渐变', label: '线性渐变' },
         { type: 'doc', id: 'Web/CSS——特殊效果——图片阴影', label: '图片阴影' },
@@ -178,7 +188,8 @@ const sidebars = {
     { type: 'doc', id: 'Operation/Python——读写环境变量', label: '读写环境变量' },
     { type: 'doc', id: 'Operation/Python——发送桌面通知', label: '发送桌面通知' },
     { type: 'doc', id: 'Operation/Python——函数', label: '函数' },
-    {type: 'category', label: '基础', items: [
+    {
+      type: 'category', label: '基础', items: [
         { type: 'doc', id: 'Operation/Python——基础——常见的内置函数', label: '常见的内置函数' },
         { type: 'doc', id: 'Operation/Python——基础——基础语法', label: '基础语法' },
         { type: 'doc', id: 'Operation/Python——基础——正则表达式', label: '正则表达式' },
@@ -206,4 +217,4 @@ const sidebars = {
 
 };
 
-export default sidebars;
+

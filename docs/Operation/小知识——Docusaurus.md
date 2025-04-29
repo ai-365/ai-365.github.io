@@ -87,35 +87,59 @@ docs: {
 
 ### 侧边栏
 
-对于文件夹，主要有三个属性：
--  type： 设置为‘category’，表示是文件夹
--  label： 显示名称
--  items： 是一个由对象组成的数组，每个元素都表示一个文件
+侧边栏是一个二层嵌套的对象，使用默认导出，然后被docusaurus.config.js导入使用。
+
+```
+export default {
+    侧边栏1:[],
+    侧边栏2:[],
+    侧边栏3:[]
+}
+```
+
+每个侧边栏对象是一个由对象组成的数组，每个元素分两类： 文件和文件夹。
 
 对于每个文件，主要有三个属性：
 -  type： 设置为‘doc’，表示是文件
 -  id： ‘文件名不要后缀’
 -  label： ‘文件名显示名称’
 
+对于文件夹，主要有三个属性：
+-  type： 设置为‘category’，表示是文件夹
+-  label： 显示名称
+-  items： 是一个由对象组成的数组，每个元素都表示一个文件
+
+
 一个示例如下：
 
 ```js
-{
-    type: 'category',
-    label: '显示名称',
-    items: [
-        {
-            type: 'doc',
-            id: '文件名1不要后缀',
-            label: '显示名称1'
-        },
-        {
-            type: 'doc',
-            id: '文件名2不要后缀',
-            label: '显示名称2'
-        },
-    ] 
+export default {
+    
+    JavaScript:[
+        {type: 'category',label: '基础', items:[
+            {type: 'doc',id: 'JavaScript/简介',label: '简介'},
+            {type: 'doc',id: 'JavaScript/数据类型',label: '数据类型'},
+        ]},
+        {type: 'category',label: '函数', items:[
+             {type: 'doc',id: 'JavaScript/函数的参数',label: '函数的参数'},
+              {type: 'doc',id: 'JavaScript/箭头函数',label: '箭头函数'},
+        ]},
+    ],
+
+    Python:[
+        {type: 'doc',id: 'Python/简介',label: '简介'},
+        {type: 'doc',id: 'Python/函数',label: '函数'},
+    ],
+   
 }
+```
+
+### 多侧边栏
+
+如果要使用多侧边栏，
+
+```
+sibear1:{},
 ```
 
 ###  面包屑导航
