@@ -117,3 +117,26 @@ docs: {
     ] 
 }
 ```
+
+###  面包屑导航
+
+默认情况下，面包屑根据当前页面的侧边栏路径自动生成。也可以取消面包屑导航：
+
+```js
+export default {
+    presets: [
+        [
+            '@docusaurus/preset-classic,
+            {
+                docs: {
+                    breadcrumbs: false,
+                },
+            }
+        ]
+    ],
+}
+
+```
+
+
+### 顶部导航
