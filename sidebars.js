@@ -84,7 +84,17 @@ const sidebars = {
               type:'doc',
               id:'Web/React——Hooks——Hooks使用规则',
               label:'Hooks使用规则'
-            }
+            },
+            {
+              type:'doc',
+              id:'Web/React——Hooks——useState()',
+              label:'useState()'
+            },
+            {
+              type:'doc',
+              id:'Web/React——Hooks——useEffect()',
+              label:'useEffect()'
+            },
         ]
         },
        
