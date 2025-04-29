@@ -167,6 +167,17 @@ const sidebars = {
       ]
     },
 
+    {
+      type: 'category',
+      label: 'React Native',
+      items: [
+        { type: 'doc', id: 'Web/ReactNative——安卓开发环境的配置', label: '安卓开发环境的配置' },
+        { type: 'doc', id: 'Web/ReactNative——预先打包项目文件说明', label: '预先打包项目文件说明' },
+        { type: 'doc', id: 'Web/ReactNative——安卓apk签名', label: '安卓apk签名' },
+        { type: 'doc', id: 'Web/ReactNative——Android项目配置文件', label: 'Android项目配置文件' },
+      ]
+    }
+
 
 
   ],
@@ -198,13 +209,7 @@ const sidebars = {
   ],
 
 
-  ReactNativeSidebar: [
-    { type: 'doc', id: 'Web/ReactNative——安卓开发环境的配置', label: '安卓开发环境的配置' },
-    { type: 'doc', id: 'Web/ReactNative——预先打包项目文件说明', label: '预先打包项目文件说明' },
-    { type: 'doc', id: 'Web/ReactNative——安卓apk签名', label: '安卓apk签名' },
-    { type: 'doc', id: 'Web/ReactNative——Android项目配置文件', label: 'Android项目配置文件' },
-  ],
-
+  
 };
 
 export default sidebars;
