@@ -75,8 +75,7 @@ const config = {
       navbar: {
         title: '我的个人网站',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'https://img1.baidu.com/it/u=3965699632,899385305&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500',
         },
         items: [
           {
