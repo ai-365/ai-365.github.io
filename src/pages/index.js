@@ -24,17 +24,17 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="/Web/React——index">
+            to="Web/React——index">
             React Guide
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="/Operation/Linux——index">
+            to="Operation/Linux——index">
             Linux Guide
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="/Operation/Python——index">
+            to="Operation/Python——index">
             Python Guide
           </Link>
         </div>
