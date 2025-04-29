@@ -96,6 +96,12 @@ const config = {
             label: 'Linux Guide',
             position: 'left',
           },
+
+          {
+            to: '/Operation/Python——index',
+            label: 'Python Guide',
+            position: 'left',
+          },
          
         ],
       },

@@ -32,6 +32,11 @@ function HomepageHeader() {
             to="/Operation/Linux——index">
             Linux Guide
           </Link>
+          <Link
+            className="button button--secondary button--lg"
+            to="/Operation/Python——index">
+            Python Guide
+          </Link>
         </div>
       </div>
     </header>
