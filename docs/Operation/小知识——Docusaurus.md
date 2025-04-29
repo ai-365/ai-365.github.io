@@ -141,6 +141,12 @@ export default {
 
 ### 顶部导航
 
+顶部导航由navbar指定，items属性是一个由对象组成的数组，每个元素表示一个文件链接，主要包括如下属性：
+-  type： 设置为doc，表示一个文件
+-  position： 可选left或right，在左侧还是在右侧显示
+-  docId： 文件名不要后缀
+-  label： 显示名称
+
 ```js
 navbar: {
     items: [
