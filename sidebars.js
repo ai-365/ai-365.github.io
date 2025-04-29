@@ -33,9 +33,21 @@ const sidebars = {
 
   mySidebar:[
     {
-      type: 'category', 
-      label: '测试' ,
-      items: ['指南']
+      type: 'DOM', 
+      label: 'Web' ,
+      items: [
+        {
+          type:'doc',
+          id:'Web/JavaScript——DOM——获取元素',
+          label: '获取元素'
+        },
+        {
+          type:'doc',
+          id:'Web/JavaScript——DOM——删除元素',
+          label: '删除元素'
+        },
+
+      ]
     }
     
   ],
