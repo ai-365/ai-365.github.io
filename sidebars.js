@@ -31,11 +31,30 @@ const sidebars = {
   ],
    */
 
+
+
   JavaScriptSidebar: [
+
+    {
+      type: 'category',
+      label: '函数',
+      items:[
+        { type: 'doc', id: 'Web/JavaScript——函数——立执行函数', label: '立执行函数' },
+        { type: 'doc', id: 'Web/JavaScript——函数——箭头函数', label: '箭头函数' },
+        { type: 'doc', id: 'Web/JavaScript——函数——函数内部的this对象', label: '函数内部的this对象' },
+        { type: 'doc', id: 'Web/JavaScript——函数——函数内部的arguments对象', label: '函数内部的arguments对象' },
+        { type: 'doc', id: 'Web/JavaScript——函数——函数的call()和apply()方法', label: '函数的call()和apply()方法' },
+        { type: 'doc', id: 'Web/JavaScript——函数——函数的暂时性死区', label: '函数的暂时性死区' },
+        { type: 'doc', id: 'Web/JavaScript——函数——函数的默认参数', label: '函数的默认参数' },
+        { type: 'doc', id: 'Web/JavaScript——函数——参数收集和参数扩展', label: '参数收集和参数扩展' },
+
+      ]
+    },
+
     {
       type: 'category',
       label: '数组',
-      items:[
+      items: [
         { type: 'doc', id: 'Web/JavaScript——数组——数组的本质也是对象', label: '数组的本质也是对象' },
         { type: 'doc', id: 'Web/JavaScript——数组——数组的方法', label: '数组的方法' },
         { type: 'doc', id: 'Web/JavaScript——数组——数组的归并', label: '数组的归并' },
@@ -56,9 +75,25 @@ const sidebars = {
         { type: 'doc', id: 'Web/JavaScript——对象——自定义事件', label: '自定义事件' },
         { type: 'doc', id: 'Web/JavaScript——对象——新建对象', label: '新建对象' },
         { type: 'doc', id: 'Web/JavaScript——对象——面向对象', label: '面向对象' },
-        { type: 'doc', id: 'Web/JavaScript——对象——对象的getter和setter', label:'对象的getter和setter' },
+        { type: 'doc', id: 'Web/JavaScript——对象——对象的getter和setter', label: '对象的getter和setter' },
         { type: 'doc', id: 'Web/JavaScript——对象——对象的语法规则', label: '对象的语法规则' },
         { type: 'doc', id: 'Web/JavaScript——对象——对象的属性特性', label: '对象的属性特性' },
+      ]
+    },
+
+    {
+      type: 'category',
+      label: 'WebAPI',
+      items: [
+        { type: 'doc', id: 'Web/JavaScript——WebAPI——地理定位', label: '地理定位' },
+        { type: 'doc', id: 'Web/JavaScript——WebAPI——定时器', label: '定时器' },
+        { type: 'doc', id: 'WebJavaScript——WebAPI——桌面通知', label: '桌面通知' },
+        { type: 'doc', id: 'Web/JavaScript——WebAPI——自定义事件', label: '自定义事件' },
+        { type: 'doc', id: 'Web/JavaScript——WebAPI——Fetch', label: 'Fetch' },
+        { type: 'doc', id: 'Web/JavaScript——WebAPI——FileSystemAPI', label: 'FileSystemAPI' },
+        { type: 'doc', id: 'Web/JavaScript——WebAPI——iframe', label: 'iframe' },
+        { type: 'doc', id: 'Web/JavaScript——WebAPI——LocalStorage', label: 'LocalStorage' },
+        { type: 'doc', id: 'Web/JavaScript——WebAPI——URLAPI', label: 'URLAPI' },
       ]
     },
 
