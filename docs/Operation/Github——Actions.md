@@ -142,3 +142,58 @@ deploy:
         id: deployment
         uses: actions/deploy-pages@v4
 ```
+
+
+###  Docusaurus 部署到Github Pages 工作流
+
+Docusaurus是流行的博客网站构建程序，支持React语法。
+
+一个典型的使用Docusaurus构建Pages的自动化工作流示例如下：
+
+```yml
+name: Deploy to GitHub Pages with Docusaurus
+
+on:
+  push:
+
+jobs:
+  build:
+    name: Build Docusaurus
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Build Site
+        run: |
+          npm install 
+          npm run build
+    
+      - name: Upload Build Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write # to deploy to Pages
+      id-token: write # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+```
