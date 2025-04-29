@@ -14,22 +14,22 @@ a = input("请输入a的值：")
 
 ```py
 print(type(123))
-<class 'int'>
+# <class 'int'>
 
 print(type(123.456))
-<class 'float'>
+# <class 'float'>
 
 print(type('hello'))
-<class 'str'>  
+# <class 'str'>  
 
 print(type(True))
-<class 'bool'>
+# <class 'bool'>
 
 print(type([]))
-<class 'list'>
+# <class 'list'>
 
 print(type({}))
-<class 'dict'>
+# <class 'dict'>
 ```
 
 
