@@ -90,12 +90,13 @@ const config = {
             label: 'React Guide',
             position: 'left',
           },
-          // {to: '/blog', label: 'Blog', position: 'left'},
+
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            to: '/Operation/Linux——index',
+            label: 'Linux Guide',
+            position: 'left',
           },
+         
         ],
       },
       footer: {
