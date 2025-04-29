@@ -114,15 +114,15 @@ export default {
 
 ```js
 export default {
-    
+
     JavaScript:[
         {type: 'category',label: '基础', items:[
             {type: 'doc',id: 'JavaScript/简介',label: '简介'},
             {type: 'doc',id: 'JavaScript/数据类型',label: '数据类型'},
         ]},
         {type: 'category',label: '函数', items:[
-             {type: 'doc',id: 'JavaScript/函数的参数',label: '函数的参数'},
-              {type: 'doc',id: 'JavaScript/箭头函数',label: '箭头函数'},
+            {type: 'doc',id: 'JavaScript/函数的参数',label: '函数的参数'},
+            {type: 'doc',id: 'JavaScript/箭头函数',label: '箭头函数'},
         ]},
     ],
 
