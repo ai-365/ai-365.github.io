@@ -17,7 +17,7 @@
 export default {
 
   JavaScriptSidebar: [
-    { type: 'doc', id: 'Web/JavaScript——index', label: '目录' },
+    { type: 'doc', id: 'Web/JavaScript——TOC', label: '目录' },
     {
       type: 'category', label: '基础', items: [
         { type: 'doc', id: 'Web/JavaScript——基础——字符串模板字面量', label: '字符串模板字面量' },

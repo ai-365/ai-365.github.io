@@ -79,7 +79,7 @@ const config = {
         },
         items: [
           {
-            to: 'Web/JavaScript——index',
+            to: 'Web/JavaScript——TOC',
             label: 'JavaScript Guide',
             position: 'left',
           },
