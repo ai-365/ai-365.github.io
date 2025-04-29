@@ -67,6 +67,7 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       // 隐藏侧边栏
       docs: {
+        sidebarPath: './sidebars.js',
         sidebar: {
           hideable: true,
         },
