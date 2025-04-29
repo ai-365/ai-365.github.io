@@ -19,7 +19,7 @@
 .buttons {
   display: flex;
   flex-direction: column;
-  column-gap: 20px;
+  gap: 20px;
   align-items: center;
   justify-content: center;
 }
