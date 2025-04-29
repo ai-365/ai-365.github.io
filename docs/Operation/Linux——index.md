@@ -25,6 +25,7 @@
 -  [which和type命令](Linux——which和type命令)
 
 ###  Git
+
 -  [安装和配置](Git——安装和配置)
 -  [分支](Git——分支)
 -  [回退](Git——回退)
@@ -34,5 +35,13 @@
 -  [最常用的Git命令](Git——最常用的Git命令)
 
 
+###  PowerShell
+
+[比较运算符](PowerShell——比较运算符)
+[读取文件到数组](PowerShell——读取文件到数组)
+[获取剪贴板内容](PowerShell——获取剪贴板内容)
+[基础](PowerShell——基础)
+[数组](PowerShell——数组)
+[CSV和JSON](PowerShell——CSV和JSON)
 
 
