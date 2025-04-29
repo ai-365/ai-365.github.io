@@ -31,77 +31,80 @@ const sidebars = {
   ],
    */
 
-  JavaScriptSidebar:[
-    {
-      type: 'category', 
-      label: 'DOM' ,
-      items: [
-        {
-          type:'doc',
-          id:'Web/JavaScript——DOM——获取元素',
-          label: '获取元素'
-        },
-        {
-          type:'doc',
-          id:'Web/JavaScript——DOM——添加元素',
-          label: '添加元素'
-        },
-        {
-          type:'doc',
-          id:'Web/JavaScript——DOM——删除元素',
-          label: '删除元素'
-        },
-       
-      
+  JavaScriptSidebar: [
 
+    
+    {
+      type: 'category',
+      label: '对象',
+      items: [
+        { type: 'doc', id: 'Web/JavaScript——对象——对象的方法', label: '对象的方法' },
+        { type: 'doc', id: 'Web/JavaScript——对象——Map映射类型', label: 'Map映射类型' },
+        { type: 'doc', id: 'Web/JavaScript——对象——JSON', label: 'JSON' },
+        { type: 'doc', id: 'Web/JavaScript——对象——自定义事件', label: '自定义事件' },
+        { type: 'doc', id: 'Web/JavaScript——对象——新建对象', label: '新建对象' },
+        { type: 'doc', id: 'Web/JavaScript——对象——面向对象', label: '面向对象' },
+        { type: 'doc', id: 'Web/JavaScript——对象——对象的getter和setter', label:'对象的getter和setter' },
+        { type: 'doc', id: 'Web/JavaScript——对象——对象的语法规则', label: '对象的语法规则' },
+        { type: 'doc', id: 'Web/JavaScript——对象——对象的属性特性', label: '对象的属性特性' },
+      ],
+    },
+
+    {
+      type: 'category',
+      label: 'DOM',
+      items: [
+        { type: 'doc', id: 'Web/JavaScript——DOM——获取元素', label: '获取元素' },
+        { type: 'doc', id: 'Web/JavaScript——DOM——添加元素', label: '添加元素' },
+        { type: 'doc', id: 'Web/JavaScript——DOM——删除元素', label: '删除元素' },
       ]
     }
-    
+
   ],
 
-  ReactSidebar:[
-   
+  ReactSidebar: [
+
+    {
+      type: 'doc',
+      id: 'Web/React——新建React项目',
+      label: '新建React项目'
+    },
+    {
+      type: 'doc',
+      id: 'Web/React——使用Vite创建React项目',
+      label: '使用Vite创建React项目'
+    },
+    {
+      type: 'doc',
+      id: 'Web/React——添加样式',
+      label: '添加样式'
+    },
+    {
+      type: 'category',
+      label: 'Hooks',
+      items: [
         {
-          type:'doc',
-          id:'Web/React——新建React项目',
-          label: '新建React项目'
+          type: 'doc',
+          id: 'Web/React——Hooks——Hooks使用规则',
+          label: 'Hooks使用规则'
         },
         {
-          type:'doc',
-          id:'Web/React——使用Vite创建React项目',
-          label:'使用Vite创建React项目'
+          type: 'doc',
+          id: 'Web/React——Hooks——useState()',
+          label: 'useState()'
         },
         {
-          type:'doc',
-          id:'Web/React——添加样式',
-          label: '添加样式'
+          type: 'doc',
+          id: 'Web/React——Hooks——useEffect()',
+          label: 'useEffect()'
         },
-        {
-          type:'category',
-          label: 'Hooks',
-          items:[
-            {
-              type:'doc',
-              id:'Web/React——Hooks——Hooks使用规则',
-              label:'Hooks使用规则'
-            },
-            {
-              type:'doc',
-              id:'Web/React——Hooks——useState()',
-              label:'useState()'
-            },
-            {
-              type:'doc',
-              id:'Web/React——Hooks——useEffect()',
-              label:'useEffect()'
-            },
-        ]
-        },
-       
-       
-    
+      ]
+    },
+
+
+
   ],
-  
+
 
 
 };
