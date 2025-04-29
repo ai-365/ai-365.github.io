@@ -1,4 +1,7 @@
-##  CommanJS
+---
+title: CommanJS
+---
+
 
 CommanJS语法也叫cjs。这种方式在ES6推出之前解决了Node端JavaScript文件模块化问题，当时浏览器还不支持模块化。这种方式，只适用于Node环境，不能用于浏览器。
 

@@ -1,4 +1,7 @@
-###   JSON
+---
+title: JSON
+---
+
 
 JSON全称是JavaScript对象表示法，是通用的数据交换格式，许多软件的配置文件均使用JSON文件格式。
 

@@ -1,4 +1,7 @@
-##  使用vite快速创建一个React项目
+---
+title: 使用vite快速创建一个React项目
+---
+
 
 ```sh
 npm create vite@latest my-react-app -- --template react

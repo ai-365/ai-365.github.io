@@ -1,4 +1,7 @@
-##    useState()
+---
+title: useState()
+---
+
 
 useState()函数返回一个包含两个值的数组：变量和更新该变量的函数。变量的初始值就是useState()的第一个参数。
 

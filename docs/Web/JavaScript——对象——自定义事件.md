@@ -1,4 +1,7 @@
-##  自定义事件
+---
+title: 自定义事件
+---
+
 
 ```js
 class CustomEvent {
