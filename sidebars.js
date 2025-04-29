@@ -129,6 +129,11 @@ const sidebars = {
   ],
 
   ReactSidebar: [
+    {
+      type: 'doc',
+      id: 'Web/React——index',
+      label: '目录'
+    },
 
     {
       type: 'doc',
