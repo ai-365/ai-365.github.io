@@ -80,10 +80,9 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'JavaScriptSidebar',
-            position: 'left',
+            to: '/Web/JavaScript——index',
             label: 'JavaScript Guide',
+            position: 'left',
           },
 
           {
