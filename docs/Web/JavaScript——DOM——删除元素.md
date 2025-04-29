@@ -1,5 +1,5 @@
 ---
-title： 删除元素
+title: 删除元素
 ---
 
 ## 使用innerHTML属性设置元素内容

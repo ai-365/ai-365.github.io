@@ -1,5 +1,5 @@
 ---
-title： 数组的归并：reduce()
+title: 数组的归并：reduce()
 ---
 
 

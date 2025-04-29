@@ -1,5 +1,5 @@
 ---
-title： JavaScript学习笔记目录
+title: JavaScript学习笔记目录
 ---
 ### 基础
 

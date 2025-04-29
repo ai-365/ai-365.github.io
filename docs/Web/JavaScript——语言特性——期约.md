@@ -1,5 +1,5 @@
 ---
-title： 期约
+title: 期约
 ---
 
 ###   Promise对象

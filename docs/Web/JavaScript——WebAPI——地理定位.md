@@ -1,5 +1,5 @@
 ---
-title： 地理定位
+title: 地理定位
 ---
 
 要获取设备的位置和速度，可以通过navigator.geoloaction.getCurrentPosition()方法，通过解析回调函数的参数可以得到经度、纬度、设备前进方向和速度，示例如下：
