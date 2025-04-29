@@ -87,7 +87,7 @@ const sidebars = {
       items: [
         { type: 'doc', id: 'Web/JavaScript——WebAPI——地理定位', label: '地理定位' },
         { type: 'doc', id: 'Web/JavaScript——WebAPI——定时器', label: '定时器' },
-        { type: 'doc', id: 'WebJavaScript——WebAPI——桌面通知', label: '桌面通知' },
+        { type: 'doc', id: 'Web/JavaScript——WebAPI——桌面通知', label: '桌面通知' },
         { type: 'doc', id: 'Web/JavaScript——WebAPI——自定义事件', label: '自定义事件' },
         { type: 'doc', id: 'Web/JavaScript——WebAPI——Fetch', label: 'Fetch' },
         { type: 'doc', id: 'Web/JavaScript——WebAPI——FileSystemAPI', label: 'FileSystemAPI' },
@@ -150,6 +150,24 @@ const sidebars = {
 
 
 
+  ],
+
+
+  CSSSidebar:[
+    {
+      type: 'category',
+      label: '容器样式',
+      items: [
+        { type: 'doc', id: 'Web/CSS——容器样式——轮廓', label: '轮廓' },
+        { type: 'doc', id: 'Web/CSS——容器样式——边框', label: '边框' },
+        { type: 'doc', id: 'Web/CSS——容器样式——背景', label: '背景' },
+
+      ]
+    },
+    {
+      type: 'category',
+      label: '容器样式',
+    }
   ],
 
 
