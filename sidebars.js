@@ -33,7 +33,7 @@ const sidebars = {
 
   WebSidebar:[
     {
-      type: 'DOM', 
+      type: 'category', 
       label: 'Web' ,
       items: [
         {
