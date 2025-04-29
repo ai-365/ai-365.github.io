@@ -79,12 +79,19 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'tutorialSidebar',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
+          {
+            type: 'docSidebar',
+            sidebarId: 'JavaScriptSidebar',
+            position: 'left',
+            label: 'JavaScript Guide',
+          },
+
+          {
+            type: 'docSidebar',
+            sidebarId: 'ReactSidebar',
+            position: 'left',
+            label: 'React Guide',
+          },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
