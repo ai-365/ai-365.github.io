@@ -46,6 +46,11 @@ const sidebars = {
           id:'Web/JavaScript——DOM——删除元素',
           label: '删除元素'
         },
+        {
+          type:'doc',
+          id:'Web/JavaScript——DOM——添加元素',
+          label: '添加元素'
+        },
 
       ]
     }
