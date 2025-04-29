@@ -1,4 +1,7 @@
-##  定时器API
+---
+title： 定时器API
+---
+
 
 JavaScript定时器API可以延迟执行、循环执行另一个函数，有三种方法：
 -  setTimeout() ：延迟执行

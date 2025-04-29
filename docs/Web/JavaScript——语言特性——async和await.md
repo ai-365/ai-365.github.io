@@ -1,4 +1,7 @@
-##  async和await
+---
+title： async和await
+---
+
 
 async和await是ES2017推出的异步函数关键字，可以看做是Promise的语法糖。把函数声明为async意味着该函数的返回值将会是一个resolved状态的期约：
 

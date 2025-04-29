@@ -1,4 +1,6 @@
-
+---
+title： JavaScript学习笔记目录
+---
 ### 基础
 
 -  [布尔类型](JavaScript——基础——布尔类型)
