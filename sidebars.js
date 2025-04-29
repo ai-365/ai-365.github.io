@@ -143,7 +143,7 @@ export default {
 
 
   LinuxSidebar: [
-    { type: 'doc', id: 'Operation/Linux——index', label: '目录' },
+    { type: 'doc', id: 'Operation/Linux——TOC', label: '目录' },
     { type: 'doc', id: 'Operation/小知识——阿里云盘命令行', label: '阿里云盘命令行' },
     { type: 'doc', id: 'Operation/小知识——压缩和解压', label: '压缩和解压' },
     { type: 'doc', id: 'Operation/小知识——Docusaurus', label: 'Docusaurus' },

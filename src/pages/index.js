@@ -29,7 +29,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="Operation/Linux——index">
+            to="Operation/Linux——TOC">
             Linux Guide
           </Link>
           <Link

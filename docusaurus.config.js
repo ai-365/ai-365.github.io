@@ -91,7 +91,7 @@ const config = {
           },
 
           {
-            to: 'Operation/Linux——index',
+            to: 'Operation/Linux——TOC',
             label: 'Linux Guide',
             position: 'left',
           },
