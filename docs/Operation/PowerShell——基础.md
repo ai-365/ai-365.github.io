@@ -1,3 +1,7 @@
+---
+title: PowerShell基础
+---
+
 ###  PowerShell执行策略
 
 基于安全的考虑，PowerShell默认是不能执行脚本的，需要更改执行策略。

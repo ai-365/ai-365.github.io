@@ -1,3 +1,6 @@
+---
+title: 读取剪贴板内容
+---
 
 很多时候需要获取剪贴板的内容，PowerShell提供了内置的命令Get-Clipboard。
 

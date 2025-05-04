@@ -1,3 +1,6 @@
+---
+title: which和type命令
+---
 
 ## which命令
 
