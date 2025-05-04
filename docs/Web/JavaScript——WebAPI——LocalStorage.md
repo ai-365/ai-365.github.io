@@ -1,4 +1,7 @@
-##  Local Storage
+---
+title: Local Storage
+---
+
 
 要在浏览器本地存储数据，可以使用cookie、local storage、session storage，这三种对象的区别如下：
 - cookie： 最古老的方式，使用特定的格式字符串存储和传输本地数据。

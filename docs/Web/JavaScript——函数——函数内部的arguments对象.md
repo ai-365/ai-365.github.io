@@ -1,4 +1,7 @@
-##   函数内部的arguments对象
+---
+title: 函数内部的arguments对象
+---
+  
 
 对于使用了function关键字的函数声明或函数表达式，函数内部有一个arguments对象，这是一个类数组对象，可以通过Array.from(arguments)将其转化为数组。arguments.length表示实参的个数。`arguments[n]`表示第n个参数。
 

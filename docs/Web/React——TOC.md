@@ -1,5 +1,5 @@
 ---
-title: React学习笔记目录
+title: Table of Contents
 ---
 
 -  [新建React项目](React——新建React项目)
@@ -18,4 +18,4 @@ title: React学习笔记目录
 -  [安卓开发环境的配置](ReactNative——安卓开发环境的配置)
 -  [安卓apk签名](ReactNative——安卓apk签名)
 -  [预先打包项目文件说明](ReactNative——预先打包项目文件说明)
--  [Android项目配置文件](ReactNative——Android项目配置文件)
+-  [Android项目配置文件](ReactNative——安卓项目配置文件)

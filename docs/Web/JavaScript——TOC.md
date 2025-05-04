@@ -1,5 +1,5 @@
 ---
-title: JavaScript学习笔记目录
+title: Table of Contents
 ---
 ### 基础
 
@@ -42,7 +42,7 @@ title: JavaScript学习笔记目录
 -  [对象的语法规则](JavaScript——对象——对象的语法规则)
 -  [对象的getter和setter](JavaScript——对象——对象的getter和setter)
 -  [面向对象](JavaScript——对象——面向对象)
--  [新建对象](JavaScript——对象——新建对象)
+-  [新建对象](JavaScript——迭代器和生成器)
 -  [自定义事件](JavaScript——对象——自定义事件)
 -  [JSON](JavaScript——对象——JSON)
 -  [Map映射类型](JavaScript——对象——Map映射类型)

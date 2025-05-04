@@ -1,3 +1,7 @@
+---
+title: 主进程监听消息
+---
+
 ipcRenderer是Node.js EventEmitter的实例。
 
 在预加载脚本中暴露API：

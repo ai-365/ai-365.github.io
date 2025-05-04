@@ -1,4 +1,7 @@
-##  Fetch API
+---
+title: Fetch API
+---
+
 
 在Node.js和浏览器环境中均可使用fetch()发送HTTP请求、接收服务器响应，语法相同。
 

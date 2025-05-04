@@ -1,4 +1,7 @@
-##  对象的getter和setter
+---
+title: 对象的getter和setter
+---
+
 
 ```js
 const obj ={   

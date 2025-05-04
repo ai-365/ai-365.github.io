@@ -1,3 +1,8 @@
+---
+title: 安卓开发环境的配置
+---
+
+
 ###   Android SDK的安装和配置
 
 要开发安卓项目，必须安装Android SDK。可以直接下载Android Studio，这会附带安装Android SDK，也可以只下载Android SDK命令行工具。本文讲解Android SDK命令行工具的安装和使用。

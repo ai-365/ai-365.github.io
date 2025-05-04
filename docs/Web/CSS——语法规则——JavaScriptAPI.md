@@ -1,4 +1,7 @@
-##   JavaScript API
+---
+title: JavaScript API
+---
+
 
 可以使用JavaScript操作样式，包括内联样式和外部样式表。
 

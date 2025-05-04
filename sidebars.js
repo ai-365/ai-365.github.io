@@ -65,7 +65,7 @@ export default {
         { type: 'doc', id: 'Web/JavaScript——对象——Map映射类型', label: 'Map映射类型' },
         { type: 'doc', id: 'Web/JavaScript——对象——JSON', label: 'JSON' },
         { type: 'doc', id: 'Web/JavaScript——对象——自定义事件', label: '自定义事件' },
-        { type: 'doc', id: 'Web/JavaScript——对象——新建对象', label: '新建对象' },
+        { type: 'doc', id: 'Web/JavaScript——迭代器和生成器', label: '迭代器和生成器' },
         { type: 'doc', id: 'Web/JavaScript——对象——面向对象', label: '面向对象' },
         { type: 'doc', id: 'Web/JavaScript——对象——对象的getter和setter', label: '对象的getter和setter' },
         { type: 'doc', id: 'Web/JavaScript——对象——对象的语法规则', label: '对象的语法规则' },
@@ -114,7 +114,7 @@ export default {
         { type: 'doc', id: 'Web/ReactNative——安卓开发环境的配置', label: '安卓开发环境的配置' },
         { type: 'doc', id: 'Web/ReactNative——预先打包项目文件说明', label: '预先打包项目文件说明' },
         { type: 'doc', id: 'Web/ReactNative——安卓apk签名', label: '安卓apk签名' },
-        { type: 'doc', id: 'Web/ReactNative——Android项目配置文件', label: 'Android项目配置文件' },
+        { type: 'doc', id: 'Web/ReactNative——安卓项目配置文件', label: '安卓项目配置文件' },
       ]
     }
   ],
