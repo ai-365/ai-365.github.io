@@ -1,3 +1,6 @@
+---
+title: Docusaurus
+---
 ###  目录结构
 
 一个新的Docusaurus项目的目录的说明如下：
