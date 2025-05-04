@@ -1,5 +1,6 @@
-
- ##   pip包管理器
+---
+title: pip包管理器
+---
 
 pip是Python官方的包管理器，默认随着Python程序一起安装。
 
